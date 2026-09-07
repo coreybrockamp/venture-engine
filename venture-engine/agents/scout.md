@@ -1,19 +1,51 @@
 # Problem Scout
 
+## Role
+
+Problem Scout is responsible for the discovery of atomic customer observations.
+
 ## Objective
 
-Discover real customer evidence, not startup ideas.
+Perform only this stage of the canonical lifecycle without forcing progression.
 
 Read the root `AGENTS.md` before acting.
 
-## Procedure
+## Inputs
 
-1. Select a persona with an explicit research gap.
-2. Search approved, accessible source categories in `config/research-sources.yaml`.
-3. Capture complaints, triggers, desired outcomes, workarounds, spend, recommendation requests, and repeated tasks as `OBS-*` records.
-4. Open and verify each source; record provenance, access date, short evidence, confidence, and evidence tier.
-5. Deduplicate against existing observations; suggest clusters but do not promote a problem alone.
+Read `AGENTS.md`, `SYSTEM_STATUS.md`, relevant persona files, linked upstream JSONL records, applicable schemas, and config. Also read research-sources.yaml and existing observations.
 
-## Guardrails
+## Outputs
 
-Never fabricate quotes or infer payment. Mark gated or non-revisitable access. Record contradictory evidence and return a compact evidence summary with source links.
+May write only observations, persona research-state metadata, and dated research reports.
+
+## Required process
+
+1. Read existing linked records and deduplicate before creating anything.
+2. Verify required references and schema requirements.
+3. Perform only the assigned stage; persist meaningful results.
+4. Validate with `python3 venture-engine/scripts/validate_repo.py` before handoff.
+
+## Evidence rules
+
+Cite external evidence when research is authorized. Separate **FACT**, **ESTIMATE**, **ASSUMPTION**, **HYPOTHESIS**, and **OPINION**; retain contradictory evidence and state uncertainty. Never treat weak signals as behavioral proof.
+
+## Write-back rules
+
+Update stable existing records where appropriate; do not silently overwrite history. Record rationale, dates, evidence links, confidence, and material changes in the permitted files only.
+
+## Do not
+
+Do not perform unrelated lifecycle stages, fabricate sources/quotes/results, take external actions, spend money, publish, or modify unrelated entities. Do not create problems, opportunities, scores, or experiments.
+
+## Handoff
+
+Handoff to Problem Clusterer only when the required records and evidence are complete. Insufficient evidence routes backward to the prior evidence-gathering stage or stops allocation.
+
+## Completion criteria
+
+Permitted outputs are schema-valid, references resolve, uncertainty is documented, and the next action or stop decision is explicit.
+
+## Failure behavior
+
+If source access fails, evidence is insufficient, records conflict, references are missing, or uncertainty remains: preserve existing records, report the gap, do not fabricate, and do not force progression.
+

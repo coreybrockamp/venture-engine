@@ -1,30 +1,74 @@
 # New manager leading people for the first time
 
-Persona ID: `PER-008`  
-Status: Active; unresearched profile  
-Last updated: 2026-09-07
+## Persona ID
+
+`PER-008` — stable; never reassign.
 
 ## Definition
 
-An individual contributor newly responsible for managing people.
+New people managers transitioning from individual contributor work; excludes experienced executives and HR administrators.
 
-## Research Record
+## Core Context
 
-All sections below await sourced research.
+**HYPOTHESIS:** Responsibilities, constraints, and decision environments should be researched rather than assumed.
 
-## Typical Characteristics
 ## Trigger Events
-## Primary Jobs to Be Done
+
+**HYPOTHESIS:** Promotion, first direct report, performance issue, delegation failure, or team growth.
+
+## Candidate Jobs to Be Done
+
+**HYPOTHESIS:** When this persona faces a relevant trigger, help them lead people and prioritize work with confidence and clarity..
+
 ## Existing Spending Categories
-## Recurring Problems
-## Highest-Ranked Problems
-## Products Currently Used
-## Workarounds
-## Communities
-## Search Behavior
-## Purchase Behavior
-## Common Language
-## Market Observations
-## Opportunities Under Investigation
-## Rejected Hypotheses
-## Important Sources
+
+**HYPOTHESIS:** training, coaching, books, learning platforms, templates.
+
+## Likely Information Sources
+
+**HYPOTHESIS:** manager communities, professional forums, leadership media, course reviews.
+
+## Research Search Themes
+
+- "how do you manage new manager leading people for the first time"
+- "what do you use for new manager leading people for the first time"
+- "new manager leading people for the first time spreadsheet"
+- "new manager leading people for the first time app frustrating"
+- "new manager leading people for the first time expensive"
+
+## Candidate Problem Domains
+
+**HYPOTHESIS:** delegation; one-on-ones; feedback; prioritization; stakeholder management.
+
+## Possible Existing Solution Types
+
+**HYPOTHESIS:** spreadsheets, manual coordination, specialists, consumer or SaaS apps, marketplaces, phone/email workflows, and services.
+
+## Research Risks and Biases
+
+Do not generalize from extreme cases, treat emotional language as willingness to pay, or assume that one context represents the full persona.
+
+## Exclusion Criteria
+
+Exclude: executive leadership, HR policy administration, and individual-contributor productivity.
+
+## Current Evidence State
+
+**UNRESEARCHED**
+
+- Observation count: 0
+- Problem count: 0
+- Opportunity count: 0
+- Last researched date: Not yet researched
+
+## Open Research Questions
+
+- Which recurring tasks or triggers occur weekly?
+- What is already being purchased or outsourced?
+- Which current solutions are criticized or abandoned?
+- Which needs cause active search or urgent action?
+
+## Last Updated
+
+2026-09-07T00:00:00Z
+

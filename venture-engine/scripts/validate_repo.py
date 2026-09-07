@@ -119,6 +119,32 @@ def main():
                     if ref not in all_ids["problems"]: errors.append(f"competitors: {record['competitor_id']} references missing {ref}")
                 for ref in record.get("related_opportunity_ids", []):
                     if ref not in all_ids["opportunities"]: errors.append(f"competitors: {record['competitor_id']} references missing {ref}")
+    persona_text = (ROOT / "config" / "personas.yaml").read_text()
+    persona_rows = [line.strip() for line in persona_text.splitlines() if line.lstrip().startswith("- {")]
+    seen_ids, seen_slugs = set(), set()
+    allowed_priorities = {"HIGH", "MEDIUM", "LOW"}
+    allowed_research = {"UNRESEARCHED", "RESEARCHING", "PARTIAL", "MATURE", "PAUSED"}
+    for row in persona_rows:
+        values = dict(re.findall(r"(persona_id|slug|research_priority|research_status|file_path):\s*([^,}]+)", row))
+        persona_id, slug = values.get("persona_id"), values.get("slug")
+        if not persona_id or persona_id in seen_ids: errors.append(f"personas: duplicate or missing persona_id {persona_id!r}")
+        if not slug or slug in seen_slugs: errors.append(f"personas: duplicate or missing slug {slug!r}")
+        seen_ids.add(persona_id); seen_slugs.add(slug)
+        if values.get("research_priority") not in allowed_priorities: errors.append(f"personas: invalid research priority for {persona_id}")
+        if values.get("research_status") not in allowed_research: errors.append(f"personas: invalid research status for {persona_id}")
+        path = ROOT / values.get("file_path", "")
+        if not path.is_file(): errors.append(f"personas: missing file for {persona_id}")
+        elif persona_id and f"`{persona_id}`" not in path.read_text(): errors.append(f"personas: ID mismatch in {path.name}")
+    required_agents = ["scout.md", "problem-clusterer.md", "market-analyst.md", "opportunity-generator.md", "opportunity-scorer.md", "experiment-designer.md", "experiment-analyst.md", "investment-committee.md"]
+    required_sections = ["## Role", "## Objective", "## Inputs", "## Outputs", "## Required process", "## Do not", "## Handoff", "## Completion criteria", "## Failure behavior", "AGENTS.md"]
+    for filename in required_agents:
+        path = ROOT / "agents" / filename
+        if not path.is_file():
+            errors.append(f"agents: missing required instruction file {filename}")
+            continue
+        text = path.read_text()
+        for section in required_sections:
+            if section not in text: errors.append(f"agents: {filename} missing required section/reference {section}")
     if errors:
         print("Validation failed:", *[f"- {e}" for e in errors], sep="\n"); return 1
     print("Validation passed: no malformed records or broken references found."); return 0

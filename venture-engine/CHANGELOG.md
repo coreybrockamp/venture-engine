@@ -18,3 +18,8 @@
 
 - Added missing canonical entity fields, relationship fields, controlled values, decision history, and required-versus-optional research semantics.
 - Expanded the validator and tests for schema/decision integrity while retaining JSONL as the canonical empty production store.
+
+## 2026-09-07 — Step 3 persona framework
+
+- Established the authoritative persona index and ten consistent, explicitly unresearched research briefs.
+- Added persona-index integrity checks to the repository validator.

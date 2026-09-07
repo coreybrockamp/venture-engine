@@ -4,7 +4,7 @@ Last updated: 2026-09-07
 
 ## Current Phase
 
-Phase 1 / Step 2 — infrastructure and data contracts are complete and validated. The system is ready for evidence collection; no new research was performed in this phase.
+Phase 1 / Steps 2–3 — data contracts and persona framework are complete and validated. No persona research was performed.
 
 ## Active Personas
 

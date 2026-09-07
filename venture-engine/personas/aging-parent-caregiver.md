@@ -1,30 +1,74 @@
 # Adult child managing aging parents
 
-Persona ID: `PER-001`  
-Status: Active; unresearched profile  
-Last updated: 2026-09-07
+## Persona ID
+
+`PER-001` — stable; never reassign.
 
 ## Definition
 
-An adult child who participates in coordinating an aging parent’s care, logistics, finances, or household needs.
+Adult children who materially coordinate an aging parent’s care, logistics, or administration; excludes professional caregivers and people seeking care only for themselves.
 
-## Research Record
+## Core Context
 
-All sections below await sourced research. Record claims as facts, estimates, assumptions, hypotheses, or opinions and link evidence through observation IDs.
+**HYPOTHESIS:** Responsibilities, constraints, and decision environments should be researched rather than assumed.
 
-## Typical Characteristics
 ## Trigger Events
-## Primary Jobs to Be Done
+
+**HYPOTHESIS:** Care changes, hospital discharge, sibling coordination, and remote support.
+
+## Candidate Jobs to Be Done
+
+**HYPOTHESIS:** When this persona faces a relevant trigger, help them keep care responsibilities and information aligned without tasks falling through..
+
 ## Existing Spending Categories
-## Recurring Problems
-## Highest-Ranked Problems
-## Products Currently Used
-## Workarounds
-## Communities
-## Search Behavior
-## Purchase Behavior
-## Common Language
-## Market Observations
-## Opportunities Under Investigation
-## Rejected Hypotheses
-## Important Sources
+
+**HYPOTHESIS:** care coordination, home services, eldercare support, legal or administrative help.
+
+## Likely Information Sources
+
+**HYPOTHESIS:** caregiving forums, aging-parent subreddits, public support communities, provider reviews.
+
+## Research Search Themes
+
+- "how do you manage adult child managing aging parents"
+- "what do you use for adult child managing aging parents"
+- "adult child managing aging parents spreadsheet"
+- "adult child managing aging parents app frustrating"
+- "adult child managing aging parents expensive"
+
+## Candidate Problem Domains
+
+**HYPOTHESIS:** care coordination; medical information; family communication; transportation; home safety.
+
+## Possible Existing Solution Types
+
+**HYPOTHESIS:** spreadsheets, manual coordination, specialists, consumer or SaaS apps, marketplaces, phone/email workflows, and services.
+
+## Research Risks and Biases
+
+Do not generalize from extreme cases, treat emotional language as willingness to pay, or assume that one context represents the full persona.
+
+## Exclusion Criteria
+
+Exclude: patient needs, professional caregivers, and one-off eldercare shoppers.
+
+## Current Evidence State
+
+**UNRESEARCHED**
+
+- Observation count: 0
+- Problem count: 0
+- Opportunity count: 0
+- Last researched date: Not yet researched
+
+## Open Research Questions
+
+- Which recurring tasks or triggers occur weekly?
+- What is already being purchased or outsourced?
+- Which current solutions are criticized or abandoned?
+- Which needs cause active search or urgent action?
+
+## Last Updated
+
+2026-09-07T00:00:00Z
+

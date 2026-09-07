@@ -33,3 +33,15 @@
 - Added 17 attributed non-Reddit observations from public caregiver forums, public Q&A, and explicitly limited search-intent evidence.
 - Reassessed the four existing problem hypotheses using independent-source counts, contradictions, current-spend signals, and active help-seeking; no new Problem, Opportunity, or experiment was created.
 - Added the Step 6 triangulation checkpoint report and retained source-access and evidence limitations for subsequent authorized work.
+
+## 2026-09-07 — Step 7 PER-001 manual market analysis
+
+- Added six directly relevant competitor records spanning care coordination, medication management, communication, human care concierge, and in-home care services.
+- Added one market-analysis memo for each of the four existing Problems and updated only market-related Problem fields with cited pricing, competitor, and market-context evidence.
+- Preserved material disconfirmation and unknowns; no opportunities, scores, experiments, or automation were created.
+
+## 2026-09-07 — Step 8 PER-001 manual opportunity generation
+
+- Added five traceable, unscored Opportunity hypotheses: three from care capacity, one from healthcare coordination, and one from parent administration; no opportunity was generated from family conflict.
+- Added five Opportunity memos with explicit user/buyer/beneficiary distinctions, alternatives, pricing and distribution hypotheses, disconfirmation, and future questions without designing experiments.
+- Extended the Opportunity schema with a null pre-scoring state and explicit observation/competitor linkage fields; fixed and tested safe opportunity appends.

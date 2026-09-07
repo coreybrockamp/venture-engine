@@ -16,7 +16,7 @@ def load_records(kind: str) -> list[dict]:
 
 def append_valid_record(kind: str, record: dict) -> str:
     """Validate a candidate then atomically allocate/check ID and append it."""
-    plural = f"{kind}s" if kind != "result" else "results"
+    plural = {"opportunity": "opportunities", "result": "results"}.get(kind, f"{kind}s")
     errors = schema_errors(record, load_schema(SCHEMAS[plural]))
     if errors:
         raise ValueError("schema validation failed: " + "; ".join(errors))

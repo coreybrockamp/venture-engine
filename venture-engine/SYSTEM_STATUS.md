@@ -4,11 +4,11 @@ Last updated: 2026-09-07
 
 ## Current Phase
 
-Step 6 — triangulated manual research completed for PER-001 through the Problem stage; no market analysis or opportunities created.
+Step 8 — manual opportunity generation completed for PER-001; five unscored commercial hypotheses exist, with no experiments or automation created.
 
 ## Active Personas
 
-PER-001 has initial observations and four researching problem hypotheses; other personas remain unresearched.
+PER-001 has 37 observations, four researching Problem hypotheses, six directly relevant competitor records, four market-analysis memos, and five pre-scoring Opportunity hypotheses; other personas remain unresearched.
 
 ## Counts
 
@@ -16,7 +16,8 @@ PER-001 has initial observations and four researching problem hypotheses; other 
 |---|---:|
 | Observations | 37 |
 | Problems | 4 |
-| Active opportunities | 0 |
+| Competitors | 6 |
+| Active opportunities | 5 |
 | Opportunities under test | 0 |
 | Experiments running | 0 |
 | Current winners | 0 |
@@ -24,9 +25,9 @@ PER-001 has initial observations and four researching problem hypotheses; other 
 
 ## Immediate Priorities
 
-1. Review the Step 6 triangulation checkpoint before authorizing any next-stage work.
-2. Preserve source diversity and contradiction capture in future Scout batches.
-3. Do not begin market analysis without explicit next-step authorization.
+1. Review the five Step 8 opportunity memos before authorizing Opportunity Scoring.
+2. Preserve the documented limits: all opportunity scores are null, buyer validation is absent, and no experiment is designed.
+3. Do not score or test opportunities without explicit next-step authorization.
 
 ## Human Decisions Needed
 

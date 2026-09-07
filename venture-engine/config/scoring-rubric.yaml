@@ -1,0 +1,22 @@
+version: 1
+scale: {min: 1, max: 10}
+formula: "weighted_total * 10"
+dimensions:
+  pain_severity: {weight: 0.15, description: "Impact when the problem occurs"}
+  existing_customer_spending: {weight: 0.15, description: "Verified spend or costly workaround"}
+  willingness_to_pay: {weight: 0.15, description: "Evidence of purchase intent or payment"}
+  frequency: {weight: 0.10, description: "How often the persona encounters it"}
+  poor_existing_solutions: {weight: 0.10, description: "Dissatisfaction, fragmentation, or gaps"}
+  customer_reachability: {weight: 0.10, description: "Practical, compliant access to buyers"}
+  market_size: {weight: 0.10, description: "Documented addressable economics"}
+  ai_software_leverage: {weight: 0.05, description: "Meaningful leverage without forcing technology"}
+  speed_to_validate: {weight: 0.05, description: "Time and cost to run a credible test"}
+  founder_fit_strategic_interest: {weight: 0.05, description: "Low-weight strategic consideration"}
+bands:
+  "0-49": "Weak; archive unless material evidence is missing."
+  "50-59": "Interesting but insufficient."
+  "60-69": "Continue research."
+  "70-79": "Eligible for validation experiment."
+  "80-89": "High-priority validation candidate."
+  "90-100": "Exceptional evidence; prioritize immediately."
+score_history_required: [score, date, agent, reason, evidence, previous_score]

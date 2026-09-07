@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Observation",
+  "type": "object",
+  "required": ["observation_id", "created_at", "timestamp", "persona_id", "source_type", "source_url", "source_date", "date_accessed", "observation", "evidence_type", "evidence_strength", "researcher_agent", "confidence"],
+  "properties": {
+    "observation_id": {"type": "string", "pattern": "^OBS-[0-9]{6}$"}, "created_at": {"type": "string", "format": "date-time"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "persona_id": {"type": "string", "pattern": "^PER-[0-9]{3}$"},
+    "source_type": {"enum": ["reddit", "youtube_comment", "facebook_public", "discord_public", "forum", "quora", "hacker_news", "industry_community", "substack_comment", "blog_comment", "slack_public", "app_store", "review_site", "marketplace", "search_demand", "competitor_website", "industry_report", "ad_library", "interview", "other"]}, "source_url": {"type": "string", "format": "uri"}, "source_date": {"type": ["string", "null"], "format": "date"},
+    "source_title": {"type": ["string", "null"]}, "date_accessed": {"type": "string", "format": "date"},
+    "observation": {"type": "string", "minLength": 1}, "problem_language": {"type": ["string", "null"]}, "current_workaround": {"type": ["string", "null"]},
+    "mentioned_product": {"type": ["string", "null"]}, "mentioned_price": {"type": ["string", "number", "null"]}, "time_cost": {"type": ["string", "null"]}, "financial_cost": {"type": ["string", "null"]},
+    "emotional_signal": {"type": ["string", "null"]}, "urgency_signal": {"type": ["string", "null"]}, "purchase_signal": {"type": ["string", "null"]}, "search_signal": {"type": ["string", "null"]},
+    "evidence_type": {"enum": ["behavioral", "intent", "problem", "weak_signal", "contradictory"]}, "evidence_strength": {"type": "integer", "minimum": 1, "maximum": 5}, "candidate_problem_cluster": {"type": ["string", "null"]},
+    "researcher_agent": {"type": "string"}, "confidence": {"type": "integer", "minimum": 0, "maximum": 100}, "notes": {"type": ["string", "null"]}
+  }, "additionalProperties": false
+}

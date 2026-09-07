@@ -1,0 +1,44 @@
+# Registry only; persona documents contain evolving qualitative context.
+personas:
+  - id: PER-001
+    slug: aging-parent-caregiver
+    name: Adult child managing aging parents
+    status: active
+  - id: PER-002
+    slug: recreational-athlete-injury
+    name: Recreational athlete dealing with a chronic or nagging injury
+    status: active
+  - id: PER-003
+    slug: local-service-business-owner
+    name: Local service-business owner with roughly 5–25 employees
+    status: active
+  - id: PER-004
+    slug: solo-consultant
+    name: Solo consultant or freelancer earning $100k+
+    status: active
+  - id: PER-005
+    slug: first-time-parent
+    name: First-time parent with a baby under one year old
+    status: active
+  - id: PER-006
+    slug: reactive-dog-owner
+    name: Owner of an anxious or reactive dog
+    status: active
+  - id: PER-007
+    slug: recently-divorced-professional
+    name: Recently divorced professional
+    status: active
+  - id: PER-008
+    slug: first-time-manager
+    name: New manager leading people for the first time
+    status: active
+  - id: PER-009
+    slug: financially-disorganized-high-income-household
+    name: High-income household that feels financially disorganized
+    status: active
+  - id: PER-010
+    slug: relocating-to-new-city
+    name: Person moving to a new city
+    status: active
+
+persona_statuses: [active, paused, proposed, archived]

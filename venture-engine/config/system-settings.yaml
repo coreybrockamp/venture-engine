@@ -1,0 +1,25 @@
+system:
+  name: Venture Research & Validation Engine
+  timezone: America/Los_Angeles
+  date_format: ISO-8601
+  canonical_record_store: data/jsonl
+  database_role: future_sqlite_projection
+  schema_version: 1
+promotion_rules:
+  observation_to_problem: "Require multiple independent observations; document contradictions and evidence strength."
+  problem_to_opportunity: "Require a defined persona, problem, trigger, desired outcome, value, monetization, and distribution hypothesis."
+  opportunity_to_experiment: "Score >=70 or document a specific exception; define thresholds before collection."
+  experiment_to_build: "Human approval plus sufficient behavioral demand evidence."
+statuses:
+  problem: [candidate, researching, validated, deprioritized, rejected, archived]
+  opportunity: [researching, active, testing, winner, rejected, archived]
+  opportunity_stage: [researching, analysis, offer_design, validation_ready, testing, post_test, archived]
+  experiment: [proposed, approved, active, completed, paused, killed]
+vocabularies:
+  evidence_strength: {range: "1-5", meaning: "1=weak signal; 5=strong behavioral evidence"}
+  confidence_score: {range: "0-100", meaning: "certainty in evidence quality, not attractiveness"}
+  source_type: [reddit, youtube_comment, facebook_public, discord_public, forum, quora, hacker_news, industry_community, substack_comment, blog_comment, slack_public, app_store, review_site, marketplace, search_demand, competitor_website, industry_report, ad_library, interview, other]
+  evidence_type: [behavioral, intent, problem, weak_signal, contradictory]
+  strategic_decision: [SCALE, CONTINUE, ITERATE, PAUSE, KILL]
+  experiment_recommendation: [SCALE, CONTINUE, ITERATE, RETEST, PAUSE, KILL]
+quality_labels: [FACT, ESTIMATE, ASSUMPTION, HYPOTHESIS, OPINION]

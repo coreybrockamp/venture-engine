@@ -1,0 +1,20 @@
+approval_policy:
+  research: {approval: false, condition: "No external action"}
+  internal_asset_generation: {approval: false}
+  external_publishing: {approval: true}
+  experiment_spend_0: {approval: false, condition: "No external action"}
+  experiment_spend_1_50: {approval: true, condition: "Prepare only; launch with permission"}
+  experiment_spend_51_250: {approval: true, explicit: true}
+  experiment_spend_over_250: {approval: true, explicit: true}
+  recurring_spend: {approval: true, explicit: true}
+  charging_customers: {approval: true, condition: "Explicit approval and clear disclosure"}
+  meaningful_mvp: {approval: true, explicit: true}
+evidence_ladder:
+  stage_0: {name: research_validation, cost_target_usd: "0", examples: [interviews, community analysis, search research, competitor research, existing purchase behavior]}
+  stage_1: {name: organic_demand, cost_target_usd: "0-25", examples: [community posts, direct outreach, waitlist, lead capture]}
+  stage_2: {name: smoke_test, cost_target_usd: "25-150", examples: [landing page, limited advertising, clearly disclosed fake door]}
+  stage_3: {name: commercial_intent, cost_target_usd: "150-500", examples: [demo, pricing-page conversion, deposit, preorder, paid-pilot inquiry]}
+  stage_4: {name: concierge_mvp, cost_target_usd: "approval required", examples: [manual service delivery, repeated paid use, retention]}
+  stage_5: {name: product_mvp, cost_target_usd: "approval required", examples: [meaningful software build]}
+commitment_order: [impression, click, landing_engagement, email_signup, qualified_lead, survey_completion, demo_request, trial, deposit, preorder, purchase, repeat_purchase, retention]
+result_actions: [SCALE, CONTINUE, ITERATE, RETEST, PAUSE, KILL]

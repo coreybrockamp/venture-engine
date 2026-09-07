@@ -1,0 +1,19 @@
+customer_conversations:
+  sources: [Reddit, YouTube comments, public Facebook communities, public Discord communities, specialized forums, Quora, Hacker News, industry communities, Substack comments, blog comments, public Slack communities]
+  query_signals: ["I hate", "Does anyone know", "How do you", "What do you use", "Is there an easier way", "I'm tired of", "I wish", "Why isn't there", "I'm willing to pay", "Has anyone found", "My workaround is", "I use a spreadsheet", "We currently pay", "This takes me", "The hardest part is"]
+product_reviews:
+  sources: [Apple App Store, Google Play, G2, Capterra, Trustpilot, Chrome extension reviews, Shopify app reviews, WordPress plugin reviews, Amazon reviews, SaaS review sites, industry marketplaces]
+  priority: "Prioritize repeated 1–3 star complaints, switching reasons, and surrounding manual work."
+search_demand:
+  sources: [Google Trends, Google autocomplete, Google People Also Ask, search-volume tools, related searches, YouTube suggestions, Reddit search, marketplace searches]
+commercial:
+  sources: [competitor websites, pricing pages, credible funding or revenue data, employee and customer counts, acquisition announcements, download estimates, advertising activity, affiliate programs, marketplaces, industry reports]
+advertising_intelligence:
+  sources: [Meta Ad Library, Google Ads Transparency Center, TikTok Creative Center, competitor landing pages, ad archives]
+offline_workarounds:
+  signals: [spreadsheets, text-message coordination, email chains, consultants, agencies, virtual assistants, notebooks, paper forms, phone calls, repetitive admin, manual data entry, coordination hires]
+rules:
+  - "Use sources only where legally and technically available."
+  - "Never fabricate a source; mark non-revisitable sources."
+  - "Record source URL, type, title, source date, access date, evidence, persona, evidence type, and confidence."
+  - "Use short excerpts only when necessary; prefer attributable paraphrase."

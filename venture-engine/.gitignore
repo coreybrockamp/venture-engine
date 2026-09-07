@@ -1,0 +1,4 @@
+# Future local SQLite projections and Python caches
+*.db
+__pycache__/
+*.pyc

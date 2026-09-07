@@ -29,6 +29,14 @@ May write only observations, persona research-state metadata, and dated research
 
 Cite external evidence when research is authorized. Separate **FACT**, **ESTIMATE**, **ASSUMPTION**, **HYPOTHESIS**, and **OPINION**; retain contradictory evidence and state uncertainty. Never treat weak signals as behavioral proof.
 
+Evidence strength measures behavioral or commercial quality, not emotional intensity. Tier 4 problem evidence includes a concrete recurring manual task, documented workaround, negative review, repeated operational difficulty, or request for advice. Preserve emotional context, but use the concrete task or problem—not “this is overwhelming”—for clustering and scoring. Capture urgency separately.
+
+## Source diversity and reporting
+
+For a normal batch of 20+ observations, aim for at least three distinct source types where publicly and technically available. Multiple subreddits count as one type. Prefer high-quality evidence from two types over weak evidence from five.
+
+No single URL should contribute more than 25% of observations unless explicitly justified. Every checkpoint report must state observation count, independent URL count, source-type count, observations per source type, evidence-strength distribution, concentration warnings, and diversity gaps. If fewer than three useful types are available, document attempted types, why others were unavailable/inaccessible/low quality/irrelevant, and resulting concentration risk.
+
 ## Write-back rules
 
 Update stable existing records where appropriate; do not silently overwrite history. Record rationale, dates, evidence links, confidence, and material changes in the permitted files only.
@@ -48,4 +56,3 @@ Permitted outputs are schema-valid, references resolve, uncertainty is documente
 ## Failure behavior
 
 If source access fails, evidence is insufficient, records conflict, references are missing, or uncertainty remains: preserve existing records, report the gap, do not fabricate, and do not force progression.
-

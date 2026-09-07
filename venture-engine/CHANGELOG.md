@@ -23,3 +23,13 @@
 
 - Established the authoritative persona index and ten consistent, explicitly unresearched research briefs.
 - Added persona-index integrity checks to the repository validator.
+
+## 2026-09-07 — Step 6 manual PER-001 research run
+
+- Added 20 sourced, paraphrased observations and four evidence-backed problem hypotheses; no later-stage entities were created.
+
+## 2026-09-07 — Step 6 PER-001 triangulation
+
+- Added 17 attributed non-Reddit observations from public caregiver forums, public Q&A, and explicitly limited search-intent evidence.
+- Reassessed the four existing problem hypotheses using independent-source counts, contradictions, current-spend signals, and active help-seeking; no new Problem, Opportunity, or experiment was created.
+- Added the Step 6 triangulation checkpoint report and retained source-access and evidence limitations for subsequent authorized work.

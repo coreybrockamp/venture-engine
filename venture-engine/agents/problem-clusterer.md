@@ -29,6 +29,8 @@ May write only problems and observation cluster references.
 
 Cite external evidence when research is authorized. Separate **FACT**, **ESTIMATE**, **ASSUMPTION**, **HYPOTHESIS**, and **OPINION**; retain contradictory evidence and state uncertainty. Never treat weak signals as behavioral proof.
 
+For every problem, calculate supporting-observation count, independent URL count, and source-type count. Multiple observations from one URL are not independent confirmation; confidence must reflect source independence. A problem supported by one source type may be an early hypothesis, but flag **SOURCE DIVERSITY GAP** in the record/report and do not describe it as well-validated.
+
 ## Write-back rules
 
 Update stable existing records where appropriate; do not silently overwrite history. Record rationale, dates, evidence links, confidence, and material changes in the permitted files only.
@@ -48,4 +50,3 @@ Permitted outputs are schema-valid, references resolve, uncertainty is documente
 ## Failure behavior
 
 If source access fails, evidence is insufficient, records conflict, references are missing, or uncertainty remains: preserve existing records, report the gap, do not fabricate, and do not force progression.
-

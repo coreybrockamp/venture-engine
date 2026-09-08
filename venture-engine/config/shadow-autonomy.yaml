@@ -1,0 +1,21 @@
+{
+  "policy_version": "shadow-pilot-v1",
+  "bundles": {
+    "discovery": {
+      "stages": ["cfd"],
+      "terminal_mappings": {"REJECT": "CFD_REJECT", "HOLD": "CFD_HOLD", "AUTHORIZE_SCOUT": "CFD_AUTHORIZE_SCOUT_REVIEW"},
+      "checks_after": ["cfd"],
+      "allowed_writes": ["research/commercial-friction-discovery/<dated-card>.md", "reports/shadow-runs/<run-id>.json", "reports/shadow-runs/<run-id>.md", "SYSTEM_STATUS.md", "CHANGELOG.md"]
+    },
+    "approved_candidate": {
+      "stages": ["persona_resolution", "scout", "cluster"],
+      "terminal_mappings": {"INSUFFICIENT_EVIDENCE": "SCOUT_INSUFFICIENT_EVIDENCE", "ZERO_PROMOTED": "CLUSTER_ZERO_PROMOTED", "PROBLEM_PROMOTED": "PROBLEM_PROMOTED_REVIEW"},
+      "checks_after": ["scout", "cluster"],
+      "allowed_writes": ["target persona catalog/definition/metadata", "data/observations.jsonl", "target Scout checkpoint", "target clustering memo", "data/problems.jsonl only when promoted", "reports/shadow-runs/<run-id>.*", "SYSTEM_STATUS.md", "CHANGELOG.md"]
+    }
+  },
+  "terminal_stop_codes": ["CFD_REJECT", "CFD_HOLD", "CFD_AUTHORIZE_SCOUT_REVIEW", "SCOUT_INSUFFICIENT_EVIDENCE", "CLUSTER_ZERO_PROMOTED", "PROBLEM_PROMOTED_REVIEW", "SOURCE_EXCEPTION", "SAFETY_BOUNDARY", "VALIDATION_FAILED", "TESTS_FAILED", "DIRTY_BASELINE", "FORBIDDEN_WRITE", "UNEXPECTED_DIFF", "POLICY_VIOLATION", "RUNNER_FAILED"],
+  "forbidden_stages": ["market_analysis", "competitor_research", "opportunity_generation", "opportunity_scoring", "experiment_design", "experiment_launch", "investment_committee"],
+  "git": {"required_start_branch": "main", "shadow_branch_prefix": "codex/shadow/", "allow_local_commit": true, "default_local_commit": false, "allow_push": false, "allow_merge": false, "allow_remote_mutation": false},
+  "external_actions": false
+}

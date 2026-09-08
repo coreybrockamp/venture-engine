@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T03:15:00Z
+2026-09-09T03:45:00Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. The `shadow-pilot-v1` controller design is approved but not implemented; no autonomous research run is authorized. CFD pass 3 remains closed with its benefits-enrollment/payroll/carrier-reconciliation `REJECT`; PER-011 and PER-012 remain closed with zero Problems promoted. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
+**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. The bounded `shadow-pilot-v1` controller and focused tests are implemented, reviewed, and approved but not activated; no autonomous research run has occurred. The controller is the enforcement/state-machine layer, while bounded research reasoning is supplied only through its structured stage-runner interface. No Market Analysis or downstream commercial autonomy exists. CFD pass 3 remains closed with its benefits-enrollment/payroll/carrier-reconciliation `REJECT`; PER-011 and PER-012 remain closed with zero Problems promoted. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
 
 ## NEXT ACTION
 
-Implement the approved `shadow-pilot-v1` bounded controller and focused test suite only. Do not activate the controller, run autonomous research, or begin any persona pipeline stage as part of that implementation.
+Run shadow pilot #1 using Bundle 1 (Discovery) with Codex acting only as the bounded CFD stage runner and the controller enforcing preflight, policy, stop conditions, diff boundaries, checks, and audit output.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
@@ -76,7 +76,7 @@ Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-p
 - PER-012 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or further evidence accumulation before separately authorized.
 - PER-013 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or additional evidence accumulation before separately authorized.
 - Persona selection, Scout research, or downstream work before a future CFD candidate is reviewed and explicitly approved.
-- Any `shadow-pilot-v1` autonomous research run before the controller implementation is separately reviewed and authorized.
+- Any shadow-pilot bundle other than the explicitly authorized supervised integration pilot.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

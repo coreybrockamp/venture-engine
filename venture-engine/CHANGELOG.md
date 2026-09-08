@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — `shadow-pilot-v1` bounded controller implementation
+
+- Added a dependency-free, fixed-graph shadow controller, policy, run-artifact documentation, and focused tests. It consumes structured stage results; it does not dispatch research, select arbitrary agents, schedule itself, or create a live run.
+- Restricted the pilot to CFD-only and human-approved-candidate Scout/Cluster bundles. It has explicit terminal stops, policy-controlled path allowlists, validator/test checks, local-only shadow-worktree support, and no push, merge, remote mutation, Market Analysis, or downstream commercial transition.
+- Added only the narrow constitutional and agent-handoff clarification required for the approved bounded pilot. The implementation is reviewed and approved; the controller remains unactivated pending explicit authorization of shadow pilot #1.
+
 ## 2026-09-09 — Fourth CFD / PER-013 validation-pass closure
 
 - Closed the first `manual-pilot-v2` candidate to receive `AUTHORIZE_SCOUT` at Problem Clustering with zero Problems promoted. The CFD card records `SCOUT_NO_PROBLEM` and the supported rejection patterns: insufficient post-competent-adoption persistence, incumbent/process adequacy, mixed necessary human work, insufficient mature cross-stack residual recurrence, and buyer/payer/WTP uncertainty.

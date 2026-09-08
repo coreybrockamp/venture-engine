@@ -82,6 +82,10 @@ Agents may autonomously research, analyze, create or update internal project fil
 
 Agents may not autonomously spend money, publish externally, launch ads, send outbound communication at scale, charge customers, materially increase experiment budgets, or represent an unbuilt product as currently available. These consequential external actions require explicit authorization and the approval thresholds in `config/experiment-rules.yaml`. Prepare approval files instead. Keep automation runs quiet when nothing actionable changed.
 
+## Bounded shadow-pilot execution
+
+When a separately approved policy permits it, the `shadow-pilot-v1` controller may run only its fixed CFD-only or human-approved-candidate Scout/Cluster bundles. It must stop at the policy's mandatory review gates; it may not enter Market Analysis or any later commercial stage. Policy cannot weaken this constitution, alter thresholds/taxonomy/schemas, activate scheduling, or mutate a remote repository. Every run remains isolated and auditable.
+
 ## Continuity
 
 This `AGENTS.md` is the highest-level project operating instruction. Future Codex sessions, specialized agents, and automations must treat it as persistent guidance.

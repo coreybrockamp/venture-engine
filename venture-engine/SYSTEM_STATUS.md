@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T00:15:00Z
+2026-09-09T00:35:00Z
 
 ## Project Mission
 
@@ -58,13 +58,13 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** PER-012 is closed at Problem Clustering with zero Problems promoted; Market Analysis is not authorized. Scout and clustering reproduced paid construction stacks, manual synchronization/correction, spreadsheet reconciliation, and some cross-company Procore-centered friction, but did not establish a structural recurring workflow independent of product/connector/configuration conditions, contract-specific rules, and ordinary financial controls. Non-Procore evidence remained consultant/implementation-specific, while configured workflows, supported integrations, standardized administration, and consolidated alternatives provide material adequacy counterevidence. Its CFD card now records `SCOUT_NO_PROBLEM`. Both CFD-originated candidates have ended `SCOUT_NO_PROBLEM`; neither established a repeatable structural workflow after clustering. No competitor, Opportunity, score, experiment, or automation was created. PER-011 Market Analysis is not authorized. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
+**No active persona pipeline.** PER-012 is closed at Problem Clustering with zero Problems promoted; Market Analysis is not authorized. Both CFD-originated candidates ended `SCOUT_NO_PROBLEM`: each reproduced paid-stack/manual-bridge signals but failed to establish a repeatable structural workflow after clustering. The human-approved CFD `manual-pilot-v2` gate refinement is implemented: new `AUTHORIZE_SCOUT` recommendations require all existing conditions plus structural generalization through cross-implementation recurrence or credible vendor-independent evidence. No CFD pass 3 has started. No competitor, Opportunity, score, experiment, or automation was created. PER-011 Market Analysis is not authorized. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
 
 ## NEXT ACTION
 
-Review the two completed CFD pilot outcomes and the CFD gate/target-selection strategy before authorizing another CFD pass or persona-selection work.
+Run the next manual Commercial Friction Discovery pass under the approved `manual-pilot-v2` gate. Do not select a persona or begin Scout unless a future CFD candidate is reviewed and explicitly approved.
 
-Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** begin another CFD pass or select a persona until the CFD pilot gate/target-selection strategy is reviewed and separately authorized. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
+Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
 ## Do Not Start Yet
 
@@ -73,7 +73,7 @@ Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-p
 - PER-002 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-011 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or evidence accumulation.
 - PER-012 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or further evidence accumulation before separately authorized.
-- Another CFD pass, persona selection, Scout research, or downstream work before the completed CFD pilot outcomes and target-selection strategy are reviewed and separately authorized.
+- Persona selection, Scout research, or downstream work before a future CFD candidate is reviewed and explicitly approved.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

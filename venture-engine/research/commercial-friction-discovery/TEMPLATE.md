@@ -2,7 +2,7 @@
 
 **Date:** `YYYY-MM-DD`
 
-**CFD version:** `manual-pilot-v1`
+**CFD version:** `manual-pilot-v2`
 
 **Decision:** `AUTHORIZE_SCOUT` | `HOLD` | `REJECT`
 
@@ -47,6 +47,16 @@
 - **Concentration or access constraints:**
 - **Persona-fit / prevalence limits:**
 
+## Structural-generalization check
+
+- **Independent organizations represented:**
+- **Distinct incumbent stacks / implementations represented:**
+- **Same operational mechanism across those contexts?:**
+- **Path A — cross-implementation recurrence evidence:**
+- **Path B — vendor-independent evidence, if cross-stack evidence is unavailable:**
+- **Evidence against generalization:**
+- **Structural-generalization gate result:** `PASS` | `FAIL` | `UNKNOWN`
+
 ## Promotion gate
 
 - [ ] Narrow persona plus concrete recurring workflow.
@@ -55,6 +65,9 @@
 - [ ] Direct link to paid software, paid labor, contractor/consultant work, or measurable economic cost.
 - [ ] Plausible user, selector, buyer, and payer hypothesis grounded in evidence.
 - [ ] Quick absorption check does not plainly explain the issue as an excluded or already-solved case.
+- [ ] Structural-generalization check passes through Path A or Path B.
+
+**Product-specific handling:** If the first six conditions are strong but structural generalization fails, use `HOLD` or `REJECT`; do not use `AUTHORIZE_SCOUT`.
 
 ## Rationale
 

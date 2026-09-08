@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — CFD structural-generalization gate refinement
+
+- Introduced the human-approved `manual-pilot-v2` CFD authorization gate: all prior conditions remain required, and `AUTHORIZE_SCOUT` additionally requires cross-implementation recurrence or credible vendor-independent evidence.
+- Clarified that strong product-specific post-adoption friction without structural generalization may be `HOLD` or `REJECT`, but cannot receive `AUTHORIZE_SCOUT` through the general CFD pathway.
+- Updated CFD instructions, candidate-card template, directory guidance, decision log, and handoff status. Historic pass-1 and pass-2 decisions remain unchanged; no research, persona selection, Scout, downstream entity, automation, or threshold change occurred. The next authorized action is a manual CFD pass under v2; Scout remains separately gated by candidate review and explicit approval.
+
 ## 2026-09-09 — Second CFD / PER-012 validation-pass closure
 
 - Closed the second CFD-originated persona pass at Problem Clustering with zero Problems promoted; PER-012 Market Analysis is not authorized.

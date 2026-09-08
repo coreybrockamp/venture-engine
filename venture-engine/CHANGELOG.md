@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-09-09 — Second CFD / PER-012 validation-pass closure
+
+- Closed the second CFD-originated persona pass at Problem Clustering with zero Problems promoted; PER-012 Market Analysis is not authorized.
+- Recorded the CFD card outcome as `SCOUT_NO_PROBLEM`, with product/vendor, connector, implementation/configuration, ordinary-control/judgment, cross-platform-recurrence, and source/generalizability rejection patterns.
+- Preserved the CFD gate and taxonomy. Added a methodological safeguard: future CFD domain selection must not rely on user memory, prior ChatGPT conversations, known professional background, or personal interests unless explicitly authorized.
+
+## 2026-09-09 — PER-012 Problem Clustering
+
+- Reviewed all 20 PER-012 Scout observations and promoted zero Problems.
+- Preserved the distinction between repeated Procore-centered synchronization/correction evidence and a structural cross-platform workflow: the latter lacked credible internal-operator recurrence and remained product, connector, implementation, contract-specific, or ordinary-control bounded.
+- Added a clustering memo and CFD traceability assessment. No market analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation was created.
+
+## 2026-09-08 — PER-012 Scout pass
+
+- Created the narrow PER-012 construction change-order financials persona after confirming that no existing unused persona accurately matched the separately authorized CFD target.
+- Added 20 independently sourced, schema-valid Scout observations across practitioner communities, public product reviews, and an Autodesk/ERP community. The corpus records paid Procore/Sage adoption, synchronization/correction and spreadsheet work, implementation/migration boundaries, limited Autodesk/Vista evidence, and material incumbent/process adequacy.
+- Added the Scout checkpoint and CFD traceability assessment. The cross-platform falsification test remains unresolved: detailed recurring evidence is concentrated in Procore/Sage, while non-Procore evidence is thin and consultant/implementation-specific. No Problem, competitor, Opportunity, score, experiment, offer, landing page, or automation was created.
+
+## 2026-09-08 — Second manual Commercial Friction Discovery pass
+
+- Conducted manual, pre-Scout discovery across healthcare authorization, construction finance, property/field operations, and freight billing/reconciliation workflows without creating canonical records or a persona.
+- Retained one human-review-only `AUTHORIZE_SCOUT` candidate: construction change-order financial continuity after paid Procore-to-accounting/ERP adoption. Its card records three independent post-adoption accounts, cross-company recurrence limits, incumbent correction/control coverage, and the requirement to test beyond the shared Procore ecosystem.
+- Rejected preliminary prior-authorization, property-operations, and freight-reconciliation signals where public evidence was thin, vendor-concentrated, regulatory/professional-workflow-bound, incumbent-absorbed, or failed to establish a structural post-adoption mechanism. No Scout, downstream entity, automation, score, experiment, or persona selection occurred.
+
 ## 2026-09-08 — First CFD / PER-011 validation-pass closure
 
 - Closed the first CFD-originated persona pass at Problem Clustering with zero Problems promoted; PER-011 Market Analysis is not authorized.

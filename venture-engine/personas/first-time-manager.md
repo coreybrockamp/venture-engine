@@ -54,12 +54,12 @@ Exclude: executive leadership, HR policy administration, and individual-contribu
 
 ## Current Evidence State
 
-**UNRESEARCHED**
+**PARTIAL**
 
-- Observation count: 0
-- Problem count: 0
+- Observation count: 22
+- Problem count: 1
 - Opportunity count: 0
-- Last researched date: Not yet researched
+- Last researched date: 2026-09-08
 
 ## Open Research Questions
 
@@ -70,5 +70,4 @@ Exclude: executive leadership, HR policy administration, and individual-contribu
 
 ## Last Updated
 
-2026-09-07T00:00:00Z
-
+2026-09-08T16:16:00Z

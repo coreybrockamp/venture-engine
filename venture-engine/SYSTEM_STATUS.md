@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-08T16:02:32Z
+2026-09-08T16:30:00Z
 
 ## Project Mission
 
@@ -30,7 +30,8 @@ The Venture Research & Validation Engine continuously searches for real customer
 | PER-004 — Solo consultant / freelancer | Complete | Complete | Complete | 0 supported | Not started | None |
 | PER-006 — Reactive/anxious dog owner | Complete | Complete | Complete | 0 supported | Not started | None |
 | PER-009 — High-income financially disorganized household | Complete | Complete | Complete | 0 supported | Not started | None |
-| PER-002, PER-005, PER-007, PER-008, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
+| PER-008 — New manager leading people for the first time | Complete | Complete | Complete | Not started | Not started | None |
+| PER-002, PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
 
 ## Current Portfolio Findings
 
@@ -44,25 +45,26 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 | Entity | Count |
 |---|---:|
-| Observations | 137 |
-| Problems | 13 |
-| Competitors | 25 |
+| Observations | 159 |
+| Problems | 14 |
+| Competitors | 29 |
 | Opportunities | 8 |
 | Experiments | 0 |
 | Experiment results | 0 |
 
 ## Current Workstream
 
-**PER-009 — High-income household that feels financially disorganized.** Opportunity Generation has completed for PROB-0012 and PROB-0013. It created zero Opportunities because neither Problem establishes a distinct residual paid job after incumbent, free-tool, professional-service, and competent-process alternatives.
+**PER-008 — New manager leading people for the first time.** Scout, Problem Clustering, and Market Analysis are complete. PROB-0014 is a real recurring workflow hypothesis, but its core mechanics are materially covered by 15Five, Lattice, Fellow, Leapsome, shared documents/templates, task systems, AI meeting assistance, coaching, mentoring, and competent recurring process. No distinct residual paid job, buyer gap, or separate willingness to pay is established. No Opportunity, score, experiment, or automation has started.
 
 ## NEXT ACTION
 
-Preserve the PER-009 zero-promotion outcome. Return to targeted evidence accumulation only if separately authorized; do not begin PER-009 Opportunity Scoring.
+Review the completed PER-008 Market Analysis with the user before authorizing any next stage.
 
-There are no PER-009 Opportunities to score.
+Do **NOT** begin PER-008 Opportunity Generation. Preserve the no-residual-paid-job conclusion; return to targeted evidence accumulation only if separately authorized.
 
 ## Do Not Start Yet
 
+- PER-008 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-009 Opportunity Scoring.
 - Another persona pipeline.
 - Demand experiments.
@@ -77,6 +79,9 @@ Unless separately authorized in a future session.
 - Which household privacy/access boundary is acceptable for shared financial information.
 - Whether professional portals or DMM services leave a paid, recurring document-handoff job after competent use.
 - Whether a future persona can demonstrate opportunity-specific willingness to pay after realistic alternatives.
+- Whether PER-008 has an independently supported recurring workflow that remains unresolved after competent manager practice, mentoring, training, HR support, and existing tools.
+- Whether PROB-0014 persists across organizations and source types after ordinary shared-document, template, spreadsheet, and management-platform practices are used competently.
+- Whether any independently supported post-adoption failure remains after 1:1 tools, task tracking, AI meeting assistance, and manager-development support are used competently.
 
 ## Known System Issues
 

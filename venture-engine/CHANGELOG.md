@@ -175,3 +175,21 @@
 - Evaluated both PER-009 Problems against residual-paid-job, incumbent, free-tool, professional-service, process, buyer, willingness-to-pay, and differentiation requirements; promoted zero Opportunities.
 - Preserved a durable rejection record for generic household-finance, continuity-vault, aggregation overlay, document-organizer, portal-add-on, and concierge directions.
 - Created no score, experiment, offer, landing page, automation, observation, Problem, competitor, or Opportunity record.
+
+## 2026-09-08 — PER-008 Scout pass
+
+- Added 22 source-attributed observations across Reddit manager communities, Hacker News discussions, App Store reviews, and course/program review sites; retained direct pain, paid-category behavior, and counterevidence.
+- Marked PER-008 PARTIAL and added a Scout checkpoint with independent-URL, source-type, evidence-tier, payer-evidence, incumbent-adequacy, concentration, and limitation assessments.
+- Created no Problem, market analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation.
+
+## 2026-09-08 — PER-008 Problem Clusterer pass
+
+- Added one researching, source-linked workflow hypothesis: PROB-0014, one-on-one commitment and follow-through.
+- Recorded independent-URL, source-type, evidence-tier, persona-fit, category-spend, counterevidence, and source-quality assessments; rejected delegation, difficult feedback, training-to-practice, team visibility, and product-specific friction as insufficiently distinct or primarily skill/process-led.
+- Created no Market Analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation.
+
+## 2026-09-08 — PER-008 Market Analyst pass
+
+- Added four current, source-linked substitutes for PROB-0014: 15Five, Lattice, Fellow, and Leapsome; captured manager/HR-suite, meeting-management, AI-assistant, pricing, and adoption coverage without treating category spend as residual-job demand.
+- Updated PROB-0014’s market fields and created a cited market memo. The core 1:1 commitment/follow-through mechanics are materially covered by incumbents, free workflows, and competent management process; no distinct residual paid job, buyer gap, or separate willingness to pay is supported.
+- Created no Opportunity, score, experiment, offer, landing page, automation, observation, or new Problem.

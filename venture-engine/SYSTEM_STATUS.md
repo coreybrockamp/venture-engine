@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-08T19:35:00Z
+2026-09-08T23:45:00Z
 
 ## Project Mission
 
@@ -33,6 +33,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 | PER-009 — High-income financially disorganized household | Complete | Complete | Complete | 0 supported | Not started | None |
 | PER-008 — New manager leading people for the first time | Complete | Complete | Complete | Not started | Not started | None |
 | PER-002 — Recreational athlete dealing with a chronic or nagging injury | Complete | Complete | Complete | Not started | Not started | None |
+| PER-011 — B2B SaaS finance / revenue-operations owner | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
 | PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
 
 ## Current Portfolio Findings
@@ -47,7 +48,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 | Entity | Count |
 |---|---:|
-| Observations | 179 |
+| Observations | 199 |
 | Problems | 15 |
 | Competitors | 32 |
 | Opportunities | 8 |
@@ -56,20 +57,21 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The manual Commercial Friction Discovery (CFD) pilot infrastructure is implemented and approved, but no CFD research pass, candidate card, persona selection, or Scout work has started. CFD is pre-Scout triage only: its cards are not canonical customer evidence and cannot authorize downstream stages without a separately approved Scout pass. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
+**No active persona pipeline.** PER-011 is closed at Problem Clustering with zero Problems promoted; Market Analysis is not authorized. The first CFD-originated candidate has a recorded `SCOUT_NO_PROBLEM` outcome: Scout reproduced real paid-stack and bridge-work signals, but clustering found no repeatable structural workflow beyond implementation/configuration debt, bespoke architecture, ordinary financial controls, professional judgment, or incumbent/process adequacy. No competitor, Opportunity, score, experiment, or automation was created. The CFD card remains pre-Scout triage, not canonical evidence. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
 
 ## NEXT ACTION
 
-Conduct the first manual CFD research pass using the approved candidate-card template and promotion gate.
+Review the completed first CFD pilot outcome before authorizing another manual CFD pass.
 
-Do **NOT** select a persona, begin Scout research, or begin any downstream stage until a CFD candidate card has been reviewed and explicitly approved. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
+Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Do **NOT** start another CFD pass, select a persona, begin Scout, or begin any downstream stage until the pilot outcome has been reviewed and a separate authorization is given. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
 ## Do Not Start Yet
 
 - PER-008 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-009 Opportunity Scoring.
 - PER-002 Opportunity Generation, Opportunity Scoring, or experiments.
-- Persona selection, Scout research, or downstream work before a CFD candidate card is reviewed and explicitly approved.
+- PER-011 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or evidence accumulation.
+- Another CFD pass, persona selection, Scout research, or downstream work before the completed first-CFD pilot outcome is reviewed and separately authorized.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

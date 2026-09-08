@@ -97,7 +97,8 @@ def load(kind, errors):
 def main():
     errors, all_records, all_ids = [], {}, {}
     for kind in FILES: all_records[kind], all_ids[kind] = load(kind, errors)
-    valid_personas = {f"PER-{n:03d}" for n in range(1, 11)}
+    persona_text = (ROOT / "config" / "personas.yaml").read_text()
+    valid_personas = set(re.findall(r"persona_id:\s*(PER-\d{3})", persona_text))
     for kind, records in all_records.items():
         for record in records:
             if "persona_id" in record and record["persona_id"] not in valid_personas: errors.append(f"{kind}: orphan persona {record['persona_id']}")
@@ -119,7 +120,6 @@ def main():
                     if ref not in all_ids["problems"]: errors.append(f"competitors: {record['competitor_id']} references missing {ref}")
                 for ref in record.get("related_opportunity_ids", []):
                     if ref not in all_ids["opportunities"]: errors.append(f"competitors: {record['competitor_id']} references missing {ref}")
-    persona_text = (ROOT / "config" / "personas.yaml").read_text()
     persona_rows = [line.strip() for line in persona_text.splitlines() if line.lstrip().startswith("- {")]
     seen_ids, seen_slugs = set(), set()
     allowed_priorities = {"HIGH", "MEDIUM", "LOW"}

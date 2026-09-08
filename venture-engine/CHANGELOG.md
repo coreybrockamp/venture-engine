@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-09-08 — First CFD / PER-011 validation-pass closure
+
+- Closed the first CFD-originated persona pass at Problem Clustering with zero Problems promoted; PER-011 Market Analysis is not authorized.
+- Recorded the CFD card outcome as `SCOUT_NO_PROBLEM`, with implementation/configuration, incumbent/process, bespoke-complexity, ordinary-control/judgment, and source-quality rejection patterns.
+- Preserved the CFD gate and taxonomy: one pilot outcome is not grounds to revise either. No additional research, downstream entity, automation, or external action occurred.
+
+## 2026-09-08 — PER-011 Problem Clustering
+
+- Reviewed all 20 PER-011 Scout observations and promoted zero Problems.
+- Preserved the distinction between possible cross-system operational work and implementation/configuration debt, bespoke architecture, ordinary financial controls, professional judgment, and product-specific friction.
+- Created a clustering memo and no market-analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation record.
+
+## 2026-09-08 — PER-011 Scout pass
+
+- Created the narrow PER-011 B2B SaaS finance/revenue-operations persona after finding no existing persona that precisely matched the approved CFD target.
+- Added 20 independently sourced observations across practitioner communities, public product reviews, and Hacker News covering paid-stack bridge work, amendment/mapping friction, reporting reconciliation, and material incumbent/process adequacy.
+- Added a CFD-traceability checkpoint. The evidence does not establish a Problem, residual paid job, buyer/payer, willingness to pay, competitor record, Opportunity, score, experiment, or automation.
+
+## 2026-09-08 — First manual Commercial Friction Discovery pass
+
+- Conducted manual pre-Scout discovery across distinct operations environments without creating a canonical persona or structured research entity.
+- Added one human-review-only candidate card for complex B2B SaaS revenue-operations reconciliation; it recommends Scout authorization solely to independently test post-adoption recurrence, absorption, buyer/payer, and separate-payment evidence.
+- Rejected multichannel-commerce and generic accounting-reconciliation signals where current tools or competent process plainly absorbed the apparent friction. No Scout, downstream research, automation, score, experiment, or candidate selection occurred.
+
 ## 2026-09-07 — Phase 1 initialization
 
 - Created the Venture Research & Validation Engine directory architecture.

@@ -1,0 +1,29 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260908T224814Z-0001",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {},
+  "files_changed": [
+    "reports/shadow-runs/SHADOW-20260908T224814Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260908T224814Z-0001.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "Fix the controller worktree-parent selection and add a regression test, then review the fix before rerunning shadow pilot #1.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260908T224814Z-0001",
+  "stages_attempted": [],
+  "stages_completed": [],
+  "started_at": "2026-09-08T22:48:45.276031Z",
+  "starting_commit": "209e137178a765ab1ccb68cec583728176aded58",
+  "terminal_reason": "Controller created the isolated worktree under the Git checkout, leaving main dirty at .venture-engine-shadow-worktrees/. This violates Bundle 1 isolation/write boundaries before CFD could start.",
+  "terminal_stop_code": "FORBIDDEN_WRITE",
+  "tests_result": "passed (preflight)",
+  "validator_result": "passed (preflight)",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/New project/.venture-engine-shadow-worktrees/SHADOW-20260908T224814Z-0001"
+}

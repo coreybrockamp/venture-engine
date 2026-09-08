@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — Shadow pilot #1 worktree-isolation remediation
+
+- Preserved shadow pilot #1 as `FORBIDDEN_WRITE`: the controller created its worktree inside the Git checkout, so the run stopped before CFD. No research, canonical record, commit, or remote mutation occurred; the failed branch and audit manifest/report remain preserved.
+- Corrected worktree placement to derive the Git top-level checkout and use a hidden sibling directory outside it. Added temporary-repository regression coverage for nested engine roots, unsafe/reused destinations, failed worktree creation, clean-baseline preservation, and unchanged remote-mutation safeguards.
+- The remediation and regression tests are reviewed and approved. The failed run remains preserved; a separately authorized Bundle 1 rerun must use a new run ID.
+
 ## 2026-09-09 — `shadow-pilot-v1` bounded controller implementation
 
 - Added a dependency-free, fixed-graph shadow controller, policy, run-artifact documentation, and focused tests. It consumes structured stage results; it does not dispatch research, select arbitrary agents, schedule itself, or create a live run.

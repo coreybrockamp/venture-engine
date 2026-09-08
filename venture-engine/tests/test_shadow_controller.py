@@ -1,4 +1,5 @@
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -97,3 +98,52 @@ class ShadowControllerTests(unittest.TestCase):
         source = (ROOT / "scripts" / "shadow_controller.py").read_text()
         self.assertNotIn('"git", "push"', source)
         self.assertNotIn('"git", "merge"', source)
+
+    def temporary_nested_repo(self):
+        temp_dir = tempfile.TemporaryDirectory()
+        repository = Path(temp_dir.name) / "checkout"
+        engine = repository / "venture-engine"
+        (engine / "config").mkdir(parents=True)
+        shutil.copy(ROOT / "config" / "shadow-autonomy.yaml", engine / "config" / "shadow-autonomy.yaml")
+        (repository / "README.md").write_text("fixture\n")
+        for command in (["git", "init"], ["git", "config", "user.email", "test@example.com"], ["git", "config", "user.name", "Test"], ["git", "add", "."], ["git", "commit", "-m", "fixture"]):
+            subprocess.run(command, cwd=repository, check=True, capture_output=True, text=True)
+        return temp_dir, repository, engine
+
+    def test_worktree_is_outside_top_level_for_nested_engine_root(self):
+        temp_dir, repository, engine = self.temporary_nested_repo()
+        with temp_dir:
+            controller = ShadowController(engine)
+            branch, worktree = controller.create_isolated_worktree("SHADOW-20260908T230000Z-0001")
+            self.assertFalse(worktree.is_relative_to(repository))
+            self.assertEqual(subprocess.run(["git", "status", "--porcelain"], cwd=repository, capture_output=True, text=True, check=True).stdout, "")
+            subprocess.run(["git", "worktree", "remove", "--force", str(worktree)], cwd=repository, check=True, capture_output=True, text=True)
+            self.assertEqual(branch, "codex/shadow/SHADOW-20260908T230000Z-0001")
+            with self.assertRaisesRegex(ValueError, "cannot be reused"):
+                controller.create_isolated_worktree("SHADOW-20260908T230000Z-0001")
+
+    def test_unsafe_or_reused_destination_is_rejected_without_dirtying_baseline(self):
+        temp_dir, repository, engine = self.temporary_nested_repo()
+        with temp_dir:
+            controller = ShadowController(engine)
+            controller._worktree_parent = lambda _root: repository / "unsafe"  # type: ignore[method-assign]
+            with self.assertRaisesRegex(ValueError, "outside the Git top-level"):
+                controller.create_isolated_worktree("SHADOW-20260908T230000Z-0002")
+            clean = subprocess.run(["git", "status", "--porcelain"], cwd=repository, capture_output=True, text=True, check=True).stdout
+            self.assertEqual(clean, "")
+            external = repository.parent / ".checkout-shadow-worktrees" / "SHADOW-20260908T230000Z-0003"
+            external.mkdir(parents=True)
+            with self.assertRaisesRegex(ValueError, "never reused"):
+                ShadowController(engine).create_isolated_worktree("SHADOW-20260908T230000Z-0003")
+            self.assertEqual(subprocess.run(["git", "status", "--porcelain"], cwd=repository, capture_output=True, text=True, check=True).stdout, "")
+
+    def test_failed_worktree_add_leaves_baseline_clean(self):
+        temp_dir, repository, engine = self.temporary_nested_repo()
+        with temp_dir:
+            def fail_add(args, cwd):
+                if args[:3] == ["git", "worktree", "add"]:
+                    return subprocess.CompletedProcess(args, 1, "", "simulated failure")
+                return subprocess.run(args, cwd=cwd, capture_output=True, text=True, check=False)
+            with self.assertRaisesRegex(RuntimeError, "simulated failure"):
+                ShadowController(engine, command=fail_add).create_isolated_worktree("SHADOW-20260908T230000Z-0004")
+            self.assertEqual(subprocess.run(["git", "status", "--porcelain"], cwd=repository, capture_output=True, text=True, check=True).stdout, "")

@@ -11,7 +11,7 @@ The controller is the enforcement/state-machine layer. Research reasoning is sup
 
 ## Running later
 
-Run from a clean `main` baseline. The controller exposes worktree, structured-stage-result, validation, allowlist, and artifact methods for a later separately authorized runner. Its current CLI performs preflight only; it deliberately does not dispatch an LLM, browse, create a worktree, push, merge, reset, or schedule anything.
+Run from a clean `main` baseline. The controller exposes worktree, structured-stage-result, validation, allowlist, and artifact methods for a later separately authorized runner. Its current CLI performs preflight only; it deliberately does not dispatch an LLM, browse, create a worktree, push, merge, reset, or schedule anything. When a runner uses the worktree helper, it derives the Git top-level checkout and creates a hidden sibling directory beside that checkout. A shadow worktree must never live inside the Git checkout, including inside `venture-engine/`'s enclosing project.
 
 The default for a future runner is to preserve an isolated worktree uncommitted. The controller exposes an optional one-local-commit helper for a normal, passing terminal result. Human review decides whether to retain or remove any worktree; no automatic cleanup occurs.
 

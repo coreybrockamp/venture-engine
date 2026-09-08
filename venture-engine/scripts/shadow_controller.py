@@ -56,6 +56,15 @@ def git_paths(cwd: Path, command: Callable = run_command) -> set[str]:
     return paths
 
 
+def is_within(path: Path, parent: Path) -> bool:
+    """Return whether path is parent itself or nested beneath it, without I/O."""
+    try:
+        path.resolve().relative_to(parent.resolve())
+        return True
+    except ValueError:
+        return False
+
+
 def parse_approval(path: Path) -> dict | None:
     if not path.is_file():
         return None
@@ -145,16 +154,35 @@ class ShadowController:
 
     def create_isolated_worktree(self, run_id: str) -> tuple[str, Path]:
         """Create a fresh local-only shadow branch; callers must pass preflight first."""
+        top = self.command(["git", "rev-parse", "--show-toplevel"], self.root)
+        if top.returncode:
+            raise RuntimeError(top.stderr or top.stdout)
+        repository_root = Path(top.stdout.strip()).resolve()
         branch = f"{self.policy['git']['shadow_branch_prefix']}{run_id}"
-        parent = self.root.parent / f".{self.root.name}-shadow-worktrees"
-        worktree = parent / run_id
+        parent = self._worktree_parent(repository_root)
+        worktree = (parent / run_id).resolve()
+        if is_within(worktree, repository_root):
+            raise ValueError("shadow worktree path must be outside the Git top-level checkout")
         if worktree.exists():
             raise ValueError("shadow worktree already exists; worktrees are never reused")
+        registered = self.command(["git", "worktree", "list", "--porcelain"], self.root)
+        if registered.returncode:
+            raise RuntimeError(registered.stderr or registered.stdout)
+        if any(line == f"worktree {worktree}" or line == f"branch refs/heads/{branch}" for line in registered.stdout.splitlines()):
+            raise ValueError("shadow run ID is already registered to a worktree")
+        branch_exists = self.command(["git", "show-ref", "--verify", "--quiet", f"refs/heads/{branch}"], self.root)
+        if branch_exists.returncode == 0:
+            raise ValueError("shadow run ID already has a local branch and cannot be reused")
         parent.mkdir(parents=True, exist_ok=True)
         result = self.command(["git", "worktree", "add", "-b", branch, str(worktree), "main"], self.root)
         if result.returncode:
             raise RuntimeError(result.stderr or result.stdout)
         return branch, worktree
+
+    @staticmethod
+    def _worktree_parent(repository_root: Path) -> Path:
+        """Use a hidden sibling of the checkout, never a directory within it."""
+        return repository_root.parent / f".{repository_root.name}-shadow-worktrees"
 
     def write_artifacts(self, worktree: Path, manifest: dict) -> tuple[Path, Path]:
         directory = worktree / "reports" / "shadow-runs"

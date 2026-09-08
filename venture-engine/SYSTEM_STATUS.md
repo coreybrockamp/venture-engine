@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T00:50:00Z
+2026-09-09T03:15:00Z
 
 ## Project Mission
 
@@ -35,6 +35,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 | PER-002 — Recreational athlete dealing with a chronic or nagging injury | Complete | Complete | Complete | Not started | Not started | None |
 | PER-011 — B2B SaaS finance / revenue-operations owner | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
 | PER-012 — Construction change-order financials manager | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
+| PER-013 — Outpatient referral-operations manager | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
 | PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
 
 ## Current Portfolio Findings
@@ -49,7 +50,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 | Entity | Count |
 |---|---:|
-| Observations | 219 |
+| Observations | 240 |
 | Problems | 15 |
 | Competitors | 32 |
 | Opportunities | 8 |
@@ -58,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** PER-012 is closed at Problem Clustering with zero Problems promoted; Market Analysis is not authorized. Both CFD-originated candidates ended `SCOUT_NO_PROBLEM`: each reproduced paid-stack/manual-bridge signals but failed to establish a repeatable structural workflow after clustering. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged: new `AUTHORIZE_SCOUT` recommendations require all existing conditions plus structural generalization through cross-implementation recurrence or credible vendor-independent evidence. CFD pass 3 is complete: its benefits-enrollment/payroll/carrier-reconciliation signal was recorded as `REJECT` because public evidence showed real manual reconciliation but did not clear incumbent/process absorption or structural generalization. No candidate is authorized for persona selection or Scout. No competitor, Opportunity, score, experiment, or automation was created. PER-011 Market Analysis is not authorized. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
+**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. The `shadow-pilot-v1` controller design is approved but not implemented; no autonomous research run is authorized. CFD pass 3 remains closed with its benefits-enrollment/payroll/carrier-reconciliation `REJECT`; PER-011 and PER-012 remain closed with zero Problems promoted. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
 
 ## NEXT ACTION
 
-Review CFD pass 3 and its `REJECT` outcome before authorizing any further CFD work. Do not select a persona or begin Scout unless a future CFD candidate is reviewed and explicitly approved.
+Implement the approved `shadow-pilot-v1` bounded controller and focused test suite only. Do not activate the controller, run autonomous research, or begin any persona pipeline stage as part of that implementation.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
@@ -73,7 +74,9 @@ Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-p
 - PER-002 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-011 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or evidence accumulation.
 - PER-012 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or further evidence accumulation before separately authorized.
+- PER-013 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or additional evidence accumulation before separately authorized.
 - Persona selection, Scout research, or downstream work before a future CFD candidate is reviewed and explicitly approved.
+- Any `shadow-pilot-v1` autonomous research run before the controller implementation is separately reviewed and authorized.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

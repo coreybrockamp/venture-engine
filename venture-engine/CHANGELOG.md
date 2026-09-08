@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-09-09 — Fourth CFD / PER-013 validation-pass closure
+
+- Closed the first `manual-pilot-v2` candidate to receive `AUTHORIZE_SCOUT` at Problem Clustering with zero Problems promoted. The CFD card records `SCOUT_NO_PROBLEM` and the supported rejection patterns: insufficient post-competent-adoption persistence, incumbent/process adequacy, mixed necessary human work, insufficient mature cross-stack residual recurrence, and buyer/payer/WTP uncertainty.
+- Preserved the CFD v2 gate, taxonomy, and version. Paid-human bridging and broad workflow recurrence were useful triage signals, but did not establish a formal structural Problem after canonical Scout and Clusterer review.
+- Recorded the approved but unimplemented `shadow-pilot-v1` controller design as the next authorized implementation-only action. No autonomous research run, Market Analysis, competitor, Opportunity, score, experiment, external action, or automation activation was authorized.
+
+## 2026-09-09 — PER-013 Problem Clustering
+
+- Reviewed all 21 PER-013 Scout observations and promoted zero Problems. The external status/documentation category is real, but the corpus does not establish one recurring residual mechanism after competent mature adoption across distinct stacks.
+- Preserved paid coordinator labor, daily worklists, calls/fax follow-up, scanning/matching, and large referral-center staffing while separating structural administrative work from patient adherence, payer/authorization, clinical judgment, and relationship-sensitive work.
+- Added a clustering memo and CFD traceability assessment. No Market Analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation was created; Market Analysis requires separate authorization.
+
+## 2026-09-09 — PER-013 Scout pass
+
+- Created the narrow PER-013 outpatient referral-operations manager persona after confirming that no existing unused persona matched the separately authorized CFD candidate.
+- Added 21 independently sourced, schema-valid observations across practitioner/EHR communities, public health-system materials, job descriptions, Reddit, and referral-platform case material. The corpus preserves paid coordinator roles, external status/documentation bridge work, post-adoption exception handling, interoperability/process boundaries, and substantial incumbent/process counterevidence.
+- Added a Scout checkpoint and CFD traceability assessment. No Problem, Market Analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation was created; Problem Clustering requires separate authorization.
+
+## 2026-09-09 — Commercial Friction Discovery pass 4
+
+- Conducted a mechanism-first, domain-blind manual pass under unchanged `manual-pilot-v2`, giving particular attention to paid human bridges alongside mature systems; no user history, prior chats, professional background, projects, or personal interests informed domain selection.
+- Retained one non-canonical human-review-only `AUTHORIZE_SCOUT` recommendation: external referral-loop closure for multi-site outpatient providers. It records cross-implementation recurrence in C-EMR/Visualutions and Epic contexts, coordinator labor after software adoption, incumbent/process counterevidence, and explicit falsification targets.
+- Rejected vendor certificate tracking, medical credentialing, chargeback/fraud review, and B2B EDI signals for incumbent coverage, regulation/judgment, vendor/implementation concentration, or insufficient structural generalization. Created no persona, canonical research entity, score, experiment, or automation.
+
 ## 2026-09-09 — Commercial Friction Discovery pass 3
 
 - Ran the first domain-blind manual CFD pass under `manual-pilot-v2` across several generic operational-friction territories; no user history, prior chats, professional background, projects, or personal interests informed domain selection.

@@ -198,3 +198,26 @@
 
 - Marked PER-008 closed after its completed review and replaced the stale Market Analysis review prompt with a no-active-pipeline handoff.
 - The next authorized action is deliberate selection of the next manual validation target for review and authorization; no Scout or downstream work is authorized until then.
+
+## 2026-09-08 — PER-002 Scout pass
+
+- Added 20 source-attributed observations across Reddit athlete communities, App Store reviews, public sport forums, and review sites covering post-PT/coaching handoffs, progression, tracking, paid support, and counterevidence.
+- Marked PER-002 PARTIAL and added a Scout checkpoint with independent-URL, source-type, evidence-tier, payer-evidence, safety-boundary, post-adoption-failure, adequacy, concentration, and limitation assessments.
+- Created no Problem, market analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation.
+
+## 2026-09-08 — PER-002 Problem Clusterer pass
+
+- Added one researching, source-linked, non-diagnostic workflow hypothesis: PROB-0015, rehab-to-training workflow coordination.
+- Recorded independent URL, source-type, evidence-tier, persona-fit, post-adoption, category-spend, safety-boundary, counterevidence, payer-ambiguity, and concentration assessments; did not promote adherence, general training judgment, clinical, product-specific, or access/friction themes as separate Problems.
+- Created no Market Analysis, competitor, Opportunity, score, experiment, offer, landing page, or automation.
+
+## 2026-09-08 — PER-002 Market Analyst pass
+
+- Added three materially relevant substitutes for PROB-0015: Physitrack/PhysiApp, Hinge Health/HingeConnect, and TrainingPeaks; captured clinician, digital-care, coach, messaging, data, pricing, and payer coverage without treating category spend as residual-job demand.
+- Updated PROB-0015’s market fields and created a cited memo. The component workflow is materially covered by paid/covered services, software, and competent manual process; no distinct recurring coordination job, buyer gap, or separate willingness to pay is supported.
+- Created no Opportunity, score, experiment, offer, landing page, automation, observation, or new Problem.
+
+## 2026-09-08 — PER-002 research-pass closure
+
+- Closed the PER-002 manual pass through Market Analysis. PROB-0015 remains a real non-diagnostic workflow hypothesis, but no distinct residual paid job, buyer gap, coordination-specific paid workaround, or separate willingness to pay is supported.
+- No PER-002 Opportunity was authorized. The handoff now requires a deliberate manual-validation-strategy review before another target is selected and authorized.

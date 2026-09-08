@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-08T16:45:00Z
+2026-09-08T19:15:00Z
 
 ## Project Mission
 
@@ -31,7 +31,8 @@ The Venture Research & Validation Engine continuously searches for real customer
 | PER-006 — Reactive/anxious dog owner | Complete | Complete | Complete | 0 supported | Not started | None |
 | PER-009 — High-income financially disorganized household | Complete | Complete | Complete | 0 supported | Not started | None |
 | PER-008 — New manager leading people for the first time | Complete | Complete | Complete | Not started | Not started | None |
-| PER-002, PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
+| PER-002 — Recreational athlete dealing with a chronic or nagging injury | Complete | Complete | Complete | Not started | Not started | None |
+| PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
 
 ## Current Portfolio Findings
 
@@ -45,28 +46,29 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 | Entity | Count |
 |---|---:|
-| Observations | 159 |
-| Problems | 14 |
-| Competitors | 29 |
+| Observations | 179 |
+| Problems | 15 |
+| Competitors | 32 |
 | Opportunities | 8 |
 | Experiments | 0 |
 | Experiment results | 0 |
 
 ## Current Workstream
 
-**No active persona pipeline.** The PER-008 — New manager leading people for the first time — pass is closed. Scout, Problem Clustering, and Market Analysis confirmed that PROB-0014 is a real recurring workflow hypothesis but does not support a distinct residual paid job after accounting for dedicated manager/HR platforms, shared documents/templates, task systems, AI meeting assistance, coaching/mentoring, and competent recurring process. No PER-008 Opportunity, score, experiment, or automation was created.
+**No active persona pipeline.** The PER-002 — Recreational athlete dealing with a chronic or nagging injury — pass is closed through Market Analysis. Scout and Problem Clustering confirmed PROB-0015 as a real, non-diagnostic workflow hypothesis, but Market Analysis found no distinct residual paid job after accounting for clinician and coach services, Physitrack/PhysiApp, Hinge Health/HingeConnect, TrainingPeaks, remote training, and competent manual communication/process. No PER-002 Opportunity was authorized; no score, experiment, or automation was created.
 
 ## NEXT ACTION
 
-Deliberately select the next manual validation target for review and authorization.
+Deliberately review the manual-validation strategy before selecting another target for review and authorization.
 
-Do **NOT** begin Scout research or any downstream stage for a new or existing persona until that target selection has been reviewed and explicitly authorized. Preserve the closed PER-008 no-residual-paid-job conclusion; do not reopen PER-008 research unless separately authorized.
+Do **NOT** begin Scout research or any downstream stage for a new or existing persona until the strategy and target selection have been reviewed and explicitly authorized. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
 ## Do Not Start Yet
 
 - PER-008 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-009 Opportunity Scoring.
-- Scout research or downstream work for any new or existing persona before target selection is reviewed and explicitly authorized.
+- PER-002 Opportunity Generation, Opportunity Scoring, or experiments.
+- Scout research or downstream work for any new or existing persona before strategy and target selection are reviewed and explicitly authorized.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.
@@ -82,6 +84,7 @@ Unless separately authorized in a future session.
 - Whether PER-008 has an independently supported recurring workflow that remains unresolved after competent manager practice, mentoring, training, HR support, and existing tools.
 - Whether PROB-0014 persists across organizations and source types after ordinary shared-document, template, spreadsheet, and management-platform practices are used competently.
 - Whether any independently supported post-adoption failure remains after 1:1 tools, task tracking, AI meeting assistance, and manager-development support are used competently.
+- Whether PER-002 athletes using competent clinician, coaching, or app support still face a recurring, non-diagnostic coordination workflow with an identifiable payer and separate willingness to pay.
 
 ## Known System Issues
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — Commercial Friction Discovery pass 3
+
+- Ran the first domain-blind manual CFD pass under `manual-pilot-v2` across several generic operational-friction territories; no user history, prior chats, professional background, projects, or personal interests informed domain selection.
+- Preserved one non-canonical benefits-enrollment/payroll/carrier-reconciliation card as `REJECT`: public sources showed real reconciliation work, but connected incumbents and normal controls materially absorbed it, and neither v2 structural-generalization path passed.
+- Rejected payroll-to-ERP mapping, freight/accounting reconciliation, and access-review signals during triage for configuration/vendor specificity, ordinary-control, incumbent-coverage, or source-quality reasons. Created no persona, canonical research entity, score, experiment, or automation.
+
 ## 2026-09-09 — CFD structural-generalization gate refinement
 
 - Introduced the human-approved `manual-pilot-v2` CFD authorization gate: all prior conditions remain required, and `AUTHORIZE_SCOUT` additionally requires cross-implementation recurrence or credible vendor-independent evidence.

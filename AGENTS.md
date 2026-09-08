@@ -23,6 +23,10 @@ All research, data structures, agents, and automations must map to this lifecycl
 
 Do not skip from persona to opportunity: documented observations and problem evidence are required first.
 
+## Pre-Scout Commercial Friction Discovery
+
+Commercial Friction Discovery (CFD) is manual pre-Scout triage for selecting a candidate persona/workflow. A CFD card is not canonical customer evidence and cannot establish a Problem, Opportunity, willingness to pay, or experiment. Downstream agents must not cite a CFD card as proof; Scout must independently create canonical observations under the existing evidence rules before any downstream stage begins.
+
 ## Non-negotiable operating principles
 
 1. Evidence beats intuition; a complaint alone does not validate a problem.

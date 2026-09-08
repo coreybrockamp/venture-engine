@@ -221,3 +221,9 @@
 
 - Closed the PER-002 manual pass through Market Analysis. PROB-0015 remains a real non-diagnostic workflow hypothesis, but no distinct residual paid job, buyer gap, coordination-specific paid workaround, or separate willingness to pay is supported.
 - No PER-002 Opportunity was authorized. The handoff now requires a deliberate manual-validation-strategy review before another target is selected and authorized.
+
+## 2026-09-08 — Commercial Friction Discovery pilot infrastructure
+
+- Added a manual-only, human-reviewed pre-Scout target-selection instruction, candidate-card template, and research directory.
+- Clarified that CFD cards are not canonical customer evidence and cannot establish a Problem, Opportunity, willingness to pay, or experiment; Scout must independently verify and persist canonical observations.
+- Added no research record, persona, schema, structured entity, score, automation, or candidate card.

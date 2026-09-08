@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-08T19:15:00Z
+2026-09-08T19:35:00Z
 
 ## Project Mission
 
@@ -20,6 +20,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 4. Specialized agent instructions.
 5. Validation, safe-write, and integrity layer.
 6. Manual end-to-end pipeline validation.
+7. Manual Commercial Friction Discovery (CFD) pilot infrastructure.
 
 ## Current Persona Pipeline Status
 
@@ -55,20 +56,20 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The PER-002 — Recreational athlete dealing with a chronic or nagging injury — pass is closed through Market Analysis. Scout and Problem Clustering confirmed PROB-0015 as a real, non-diagnostic workflow hypothesis, but Market Analysis found no distinct residual paid job after accounting for clinician and coach services, Physitrack/PhysiApp, Hinge Health/HingeConnect, TrainingPeaks, remote training, and competent manual communication/process. No PER-002 Opportunity was authorized; no score, experiment, or automation was created.
+**No active persona pipeline.** The manual Commercial Friction Discovery (CFD) pilot infrastructure is implemented and approved, but no CFD research pass, candidate card, persona selection, or Scout work has started. CFD is pre-Scout triage only: its cards are not canonical customer evidence and cannot authorize downstream stages without a separately approved Scout pass. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
 
 ## NEXT ACTION
 
-Deliberately review the manual-validation strategy before selecting another target for review and authorization.
+Conduct the first manual CFD research pass using the approved candidate-card template and promotion gate.
 
-Do **NOT** begin Scout research or any downstream stage for a new or existing persona until the strategy and target selection have been reviewed and explicitly authorized. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
+Do **NOT** select a persona, begin Scout research, or begin any downstream stage until a CFD candidate card has been reviewed and explicitly approved. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
 ## Do Not Start Yet
 
 - PER-008 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-009 Opportunity Scoring.
 - PER-002 Opportunity Generation, Opportunity Scoring, or experiments.
-- Scout research or downstream work for any new or existing persona before strategy and target selection are reviewed and explicitly authorized.
+- Persona selection, Scout research, or downstream work before a CFD candidate card is reviewed and explicitly approved.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

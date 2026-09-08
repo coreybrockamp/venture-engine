@@ -54,12 +54,12 @@ Exclude: non-field businesses, enterprise operations, and employee-only workflow
 
 ## Current Evidence State
 
-**UNRESEARCHED**
+**PARTIAL**
 
-- Observation count: 0
-- Problem count: 0
+- Observation count: 23
+- Problem count: 3
 - Opportunity count: 0
-- Last researched date: Not yet researched
+- Last researched date: 2026-09-07
 
 ## Open Research Questions
 
@@ -71,4 +71,3 @@ Exclude: non-field businesses, enterprise operations, and employee-only workflow
 ## Last Updated
 
 2026-09-07T00:00:00Z
-

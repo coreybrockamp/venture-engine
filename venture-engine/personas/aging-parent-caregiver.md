@@ -54,12 +54,12 @@ Exclude: patient needs, professional caregivers, and one-off eldercare shoppers.
 
 ## Current Evidence State
 
-**UNRESEARCHED**
+**MATURE**
 
-- Observation count: 0
-- Problem count: 0
-- Opportunity count: 0
-- Last researched date: Not yet researched
+- Observation count: 43
+- Problem count: 4
+- Opportunity count: 5
+- Last researched date: 2026-09-07
 
 ## Open Research Questions
 
@@ -71,4 +71,3 @@ Exclude: patient needs, professional caregivers, and one-off eldercare shoppers.
 ## Last Updated
 
 2026-09-07T00:00:00Z
-

@@ -54,12 +54,12 @@ Exclude: financial advice, investment recommendations, and low-income budget aud
 
 ## Current Evidence State
 
-**UNRESEARCHED**
+**PARTIAL**
 
-- Observation count: 0
-- Problem count: 0
+- Observation count: 25
+- Problem count: 2
 - Opportunity count: 0
-- Last researched date: Not yet researched
+- Last researched date: 2026-09-07
 
 ## Open Research Questions
 
@@ -71,4 +71,3 @@ Exclude: financial advice, investment recommendations, and low-income budget aud
 ## Last Updated
 
 2026-09-07T00:00:00Z
-

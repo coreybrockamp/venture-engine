@@ -1,38 +1,91 @@
 # System Status
 
-Last updated: 2026-09-07
+## Last Updated
 
-## Current Phase
+2026-09-08T00:42:26Z
 
-Step 8 — manual opportunity generation completed for PER-001; five unscored commercial hypotheses exist, with no experiments or automation created.
+## Project Mission
 
-## Active Personas
+The Venture Research & Validation Engine continuously searches for real customer problems, validates them with independent evidence, analyzes existing markets and spend, generates only defensible commercial opportunities, scores them, and eventually tests demand before meaningful product development.
 
-PER-001 has 37 observations, four researching Problem hypotheses, six directly relevant competitor records, four market-analysis memos, and five pre-scoring Opportunity hypotheses; other personas remain unresearched.
+## Engine Health
 
-## Counts
+**HEALTHY.** The engine is rejecting painful-but-already-solved, process-led, and service-led problems instead of forcing startup ideas. It is retaining evidence, contradictions, and durable rejections while preserving its current standards.
 
-| Metric | Count |
+## Completed Foundation
+
+1. `AGENTS.md` constitution.
+2. Schemas and structured data layer.
+3. Persona framework.
+4. Specialized agent instructions.
+5. Validation, safe-write, and integrity layer.
+6. Manual end-to-end pipeline validation.
+
+## Current Persona Pipeline Status
+
+| Persona | Scout | Cluster | Market | Opportunities | Scoring | Experiments |
+|---|---|---|---|---|---|---|
+| PER-001 — Adult child managing aging parents | Complete | Complete | Complete | 5 generated | Complete / none eligible | None |
+| PER-003 — Local service-business owner | Complete | Complete | Complete | 3 generated | Complete / none eligible | None |
+| PER-004 — Solo consultant / freelancer | Complete | Complete | Complete | 0 supported | Not started | None |
+| PER-006 — Reactive/anxious dog owner | Complete | Complete | Complete | 0 supported | Not started | None |
+| PER-009 — High-income financially disorganized household | Complete | Complete | Complete | Not started | Not started | None |
+| PER-002, PER-005, PER-007, PER-008, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
+
+## Current Portfolio Findings
+
+- No Opportunity is currently experiment eligible.
+- Category spend has repeatedly failed to translate automatically into opportunity-specific willingness to pay.
+- Incumbents, free tools, professional services, and competent process have absorbed many apparent opportunities.
+- The scoring system was reviewed and judged reasonable.
+- Continue searching across personas rather than lowering standards.
+
+## Current Record Counts
+
+| Entity | Count |
 |---|---:|
-| Observations | 37 |
-| Problems | 4 |
-| Competitors | 6 |
-| Active opportunities | 5 |
-| Opportunities under test | 0 |
-| Experiments running | 0 |
-| Current winners | 0 |
-| Recent kills | 0 |
+| Observations | 137 |
+| Problems | 13 |
+| Competitors | 25 |
+| Opportunities | 8 |
+| Experiments | 0 |
+| Experiment results | 0 |
 
-## Immediate Priorities
+## Current Workstream
 
-1. Review the five Step 8 opportunity memos before authorizing Opportunity Scoring.
-2. Preserve the documented limits: all opportunity scores are null, buyer validation is absent, and no experiment is designed.
-3. Do not score or test opportunities without explicit next-step authorization.
+**PER-009 — High-income household that feels financially disorganized.** The Market Analyst stage has completed for PROB-0012 and PROB-0013. It added five relevant substitute records and two market memos; it found no distinct residual paid job. Opportunity Generation has not started.
 
-## Human Decisions Needed
+## NEXT ACTION
 
-None. Research scope, paid experiments, publishing, and customer charging remain subject to `config/experiment-rules.yaml`.
+Review the completed PER-009 Market Analysis with the user before authorizing any next stage.
+
+Do **NOT** begin PER-009 Opportunity Generation until the user and ChatGPT have reviewed the Market Analyst output.
+
+## Do Not Start Yet
+
+- PER-009 Opportunity Generation.
+- Another persona pipeline.
+- Demand experiments.
+- Automation activation.
+- Scoring-rubric changes.
+
+Unless separately authorized in a future session.
+
+## Important Open Questions
+
+- Whether high-income households with mature finance stacks have a measurable residual continuity task and would pay separately for it.
+- Which household privacy/access boundary is acceptable for shared financial information.
+- Whether professional portals or DMM services leave a paid, recurring document-handoff job after competent use.
+- Whether a future persona can demonstrate opportunity-specific willingness to pay after realistic alternatives.
 
 ## Known System Issues
 
-No importer exists yet for `../report-source.md`; it remains a preserved, unvalidated legacy artifact. SQLite is schema-ready but has no migration/import process yet. Canonical singular schema entry points reference compatibility-preserved plural schema implementations.
+No importer exists for `../report-source.md`; it remains a preserved, unvalidated legacy artifact. SQLite is schema-ready but has no migration/import process yet. Canonical singular schema entry points retain compatibility-preserved plural schema implementations.
+
+## Restart Instructions
+
+1. Read `AGENTS.md`.
+2. Read `SYSTEM_STATUS.md`.
+3. Run `python3 venture-engine/scripts/validate_repo.py`.
+4. Do not assume prior chat context.
+5. Resume only the NEXT ACTION explicitly authorized by the user.

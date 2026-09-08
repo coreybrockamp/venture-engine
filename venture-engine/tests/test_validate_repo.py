@@ -96,7 +96,7 @@ class ValidateRepoTests(unittest.TestCase):
         self.assertIn("personas: missing file for PER-001", output)
 
     def test_persona_validator_rejects_invalid_research_status(self):
-        result, output = self.run_persona_fixture(lambda text: text.replace("research_status: UNRESEARCHED", "research_status: INVALID", 1))
+        result, output = self.run_persona_fixture(lambda text: text.replace("research_status: MATURE", "research_status: INVALID", 1))
         self.assertEqual(result, 1)
         self.assertIn("personas: invalid research status for PER-001", output)
 
@@ -164,6 +164,17 @@ class ValidateRepoTests(unittest.TestCase):
             record = {"opportunity_id":"OPP-0001","created_at":"2026-09-07T00:00:00Z","updated_at":"2026-09-07T00:00:00Z","persona_id":"PER-001","problem_id":"PROB-0001","opportunity_name":"x","one_sentence_pitch":"x","customer":"x","problem":"x","solution_hypothesis":"x","value_proposition":"x","key_assumptions":[],"biggest_risks":[],"opportunity_score":None,"confidence_score":None,"current_stage":"analysis","strategic_decision":None,"source_ids":[],"experiment_ids":[],"status":"researching"}
             self.assertEqual(data_utils.append_valid_record("opportunity", record), "OPP-0001")
             self.assertEqual(len((temp_root / "data" / "opportunities.jsonl").read_text().splitlines()), 1)
+        finally:
+            data_utils.ROOT, id_utils.ROOT, validate_repo.ROOT = roots; temp_dir.cleanup()
+
+    def test_update_helper_replaces_one_valid_opportunity(self):
+        temp_dir, temp_root, data_utils, id_utils, validate_repo, roots = self.append_fixture()
+        try:
+            record = {"opportunity_id":"OPP-0001","created_at":"2026-09-07T00:00:00Z","updated_at":"2026-09-07T00:00:00Z","persona_id":"PER-001","problem_id":"PROB-0001","opportunity_name":"x","one_sentence_pitch":"x","customer":"x","problem":"x","solution_hypothesis":"x","value_proposition":"x","key_assumptions":[],"biggest_risks":[],"opportunity_score":None,"confidence_score":None,"current_stage":"analysis","strategic_decision":None,"source_ids":[],"experiment_ids":[],"status":"researching"}
+            data_utils.append_valid_record("opportunity", record)
+            record["opportunity_score"] = 60; record["confidence_score"] = 50
+            self.assertEqual(data_utils.update_valid_record("opportunity", record), "OPP-0001")
+            self.assertEqual(json.loads((temp_root / "data" / "opportunities.jsonl").read_text())["opportunity_score"], 60)
         finally:
             data_utils.ROOT, id_utils.ROOT, validate_repo.ROOT = roots; temp_dir.cleanup()
 

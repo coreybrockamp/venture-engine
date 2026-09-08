@@ -54,12 +54,12 @@ Exclude: veterinary diagnosis, professional trainer operations, and generic pet 
 
 ## Current Evidence State
 
-**UNRESEARCHED**
+**PARTIAL**
 
-- Observation count: 0
-- Problem count: 0
+- Observation count: 25
+- Problem count: 2
 - Opportunity count: 0
-- Last researched date: Not yet researched
+- Last researched date: 2026-09-07
 
 ## Open Research Questions
 
@@ -71,4 +71,3 @@ Exclude: veterinary diagnosis, professional trainer operations, and generic pet 
 ## Last Updated
 
 2026-09-07T00:00:00Z
-

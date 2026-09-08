@@ -193,3 +193,8 @@
 - Added four current, source-linked substitutes for PROB-0014: 15Five, Lattice, Fellow, and Leapsome; captured manager/HR-suite, meeting-management, AI-assistant, pricing, and adoption coverage without treating category spend as residual-job demand.
 - Updated PROB-0014’s market fields and created a cited market memo. The core 1:1 commitment/follow-through mechanics are materially covered by incumbents, free workflows, and competent management process; no distinct residual paid job, buyer gap, or separate willingness to pay is supported.
 - Created no Opportunity, score, experiment, offer, landing page, automation, observation, or new Problem.
+
+## 2026-09-08 — Post-PER-008 handoff correction
+
+- Marked PER-008 closed after its completed review and replaced the stale Market Analysis review prompt with a no-active-pipeline handoff.
+- The next authorized action is deliberate selection of the next manual validation target for review and authorization; no Scout or downstream work is authorized until then.

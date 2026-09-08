@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-08T16:30:00Z
+2026-09-08T16:45:00Z
 
 ## Project Mission
 
@@ -54,19 +54,19 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**PER-008 — New manager leading people for the first time.** Scout, Problem Clustering, and Market Analysis are complete. PROB-0014 is a real recurring workflow hypothesis, but its core mechanics are materially covered by 15Five, Lattice, Fellow, Leapsome, shared documents/templates, task systems, AI meeting assistance, coaching, mentoring, and competent recurring process. No distinct residual paid job, buyer gap, or separate willingness to pay is established. No Opportunity, score, experiment, or automation has started.
+**No active persona pipeline.** The PER-008 — New manager leading people for the first time — pass is closed. Scout, Problem Clustering, and Market Analysis confirmed that PROB-0014 is a real recurring workflow hypothesis but does not support a distinct residual paid job after accounting for dedicated manager/HR platforms, shared documents/templates, task systems, AI meeting assistance, coaching/mentoring, and competent recurring process. No PER-008 Opportunity, score, experiment, or automation was created.
 
 ## NEXT ACTION
 
-Review the completed PER-008 Market Analysis with the user before authorizing any next stage.
+Deliberately select the next manual validation target for review and authorization.
 
-Do **NOT** begin PER-008 Opportunity Generation. Preserve the no-residual-paid-job conclusion; return to targeted evidence accumulation only if separately authorized.
+Do **NOT** begin Scout research or any downstream stage for a new or existing persona until that target selection has been reviewed and explicitly authorized. Preserve the closed PER-008 no-residual-paid-job conclusion; do not reopen PER-008 research unless separately authorized.
 
 ## Do Not Start Yet
 
 - PER-008 Opportunity Generation, Opportunity Scoring, or experiments.
 - PER-009 Opportunity Scoring.
-- Another persona pipeline.
+- Scout research or downstream work for any new or existing persona before target selection is reviewed and explicitly authorized.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

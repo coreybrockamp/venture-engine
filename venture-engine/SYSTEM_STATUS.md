@@ -59,7 +59,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234152Z-0003` stopped `CFD_REJECT`: This is primarily setup and operational-discipline friction. The pass found no attributable post-adoption residual mechanism, buyer gap, or structural recurrence. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
+**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234201Z-0004` stopped `CFD_REJECT`: The signal is source-quality-limited and plausibly configuration/master-data work. It fails paid-residual and structural-generalization requirements. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
 
 ## NEXT ACTION
 

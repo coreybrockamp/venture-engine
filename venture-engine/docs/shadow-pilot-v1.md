@@ -23,6 +23,8 @@ Bundle 1 completed its initial three-run safety pilot with normal `CFD_REJECT` a
 
 To prevent worktree accumulation, retain each completed run's card, JSON manifest, and Markdown report in the main repository before a human-directed mechanical cleanup. After that retention, an external `REJECT` or `HOLD` worktree may be removed with its local branch only when the operator has verified the retained artifacts; never delete the retained audit records. There is no automatic cleanup.
 
+`scripts/accept_shadow_run.py` is the explicit mechanical acceptance command for one normal Bundle 1 run. It refuses anything except a passed `CFD_REJECT` or `CFD_HOLD` manifest with an exact allowed shadow diff, no canonical entities, passed checks, no remote mutation, and a clean forward-compatible `main` baseline. It copies only manifest-declared artifacts, commits and pushes from `main`, then verifies preservation before removing the external worktree and local shadow branch. It cannot accept an escalation, Bundle 2, canonical change, or audit inconsistency.
+
 ## Stage-result contract
 
 Each result is JSON with `stage`, `completed`, `decision`, `reason`, `expected_files`, `evidence`, `entities`, `source_exception`, and `safety_exception`. The controller uses these fields—not prose—to choose its fixed stop code. A future Codex runner must write these results and may not select other stages.

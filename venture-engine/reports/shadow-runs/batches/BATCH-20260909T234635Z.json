@@ -1,0 +1,70 @@
+{
+  "authorize_scout_occurred": false,
+  "batch_id": "BATCH-20260909T234635Z",
+  "batch_status": "BATCH_COMPLETE",
+  "ending_main_sha": "a526ad057c51a2efb22df267e8353ad06ec39ec3",
+  "finished_at": "2026-09-09T23:47:19.950161Z",
+  "hold_count": 0,
+  "main_origin_synchronized": true,
+  "next_human_decision": "A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.",
+  "reject_count": 5,
+  "requested_max_runs": 5,
+  "run_ids": [
+    "SHADOW-20260909T234638Z-0001",
+    "SHADOW-20260909T234647Z-0002",
+    "SHADOW-20260909T234656Z-0003",
+    "SHADOW-20260909T234705Z-0004",
+    "SHADOW-20260909T234714Z-0005"
+  ],
+  "runs": [
+    {
+      "acceptance": "ACCEPTED:82735fc63f72c1fef8058436ff441cffc2ff67d1",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234638Z-0001",
+      "starting_commit": "2e90fd3b5bc42527cd24f4f55bbd996813cf7aae",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The duplicate entry is real but implementation-specific and does not establish a vendor-independent residual paid job after competent system selection and integration.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234638Z-0001"
+    },
+    {
+      "acceptance": "ACCEPTED:ffba56dd54755dbe52a81b3185c7399109dea1c2",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234647Z-0002",
+      "starting_commit": "82735fc63f72c1fef8058436ff441cffc2ff67d1",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The signal is normal incumbent configuration work, not evidence of a distinct residual paid job.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234647Z-0002"
+    },
+    {
+      "acceptance": "ACCEPTED:97c888e5ce810e0bcfd7beefdec45b94d0111845",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234656Z-0003",
+      "starting_commit": "ffba56dd54755dbe52a81b3185c7399109dea1c2",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "No independent post-adoption recurrence or separate buyer case is established beyond routine workflow configuration.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234656Z-0003"
+    },
+    {
+      "acceptance": "ACCEPTED:3d5df26fbfe37cda1f7eab2893b2f4e7265e8299",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234705Z-0004",
+      "starting_commit": "97c888e5ce810e0bcfd7beefdec45b94d0111845",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The evidence does not support a separately paid, non-professional residual job after competent adoption.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234705Z-0004"
+    },
+    {
+      "acceptance": "ACCEPTED:a526ad057c51a2efb22df267e8353ad06ec39ec3",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234714Z-0005",
+      "starting_commit": "3d5df26fbfe37cda1f7eab2893b2f4e7265e8299",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "This is implementation and service absorption evidence, not a structurally generalizable residual paid job.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234714Z-0005"
+    }
+  ],
+  "runs_attempted": 5,
+  "started_at": "20260909T234635Z",
+  "starting_main_sha": "2e90fd3b5bc42527cd24f4f55bbd996813cf7aae",
+  "stop_reason": "Requested maximum reached."
+}

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-09 — Bundle 1 shadow-controller pilot closure
+
+- Retained the three successful post-remediation Bundle 1 run cards and audit artifacts. Their normal terminal outcomes were `CFD_REJECT`, `CFD_HOLD`, and `CFD_REJECT`; all passed controller safety, validator, tests, allowlist, manifest/report, and local/remote-isolation checks without canonical mutation or remote action.
+- Closed the three-run Bundle 1 safety pilot and approved deliberate routine bounded discovery under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules. Routine normal `REJECT`/`HOLD` outcomes may precede another deliberate Bundle 1 run without detailed strategy review; no scheduling or continuous operation is authorized.
+- Preserved mandatory review for `CFD_AUTHORIZE_SCOUT_REVIEW` and all exception/enforcement codes. Bundle 2 remains implemented but unvalidated on a real approved candidate; an explicit valid human approval reference remains mandatory for its first reviewed pilot.
+- Documented worktree hygiene: retain the card and audit records on `main` before a human-directed cleanup of an external normal-result worktree; retained audit artifacts are never deleted.
+
 ## 2026-09-09 — Shadow pilot #1 worktree-isolation remediation
 
 - Preserved shadow pilot #1 as `FORBIDDEN_WRITE`: the controller created its worktree inside the Git checkout, so the run stopped before CFD. No research, canonical record, commit, or remote mutation occurred; the failed branch and audit manifest/report remain preserved.

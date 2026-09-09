@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T04:15:00Z
+2026-09-09T23:00:00Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. Shadow pilot #1 remains preserved as `FORBIDDEN_WRITE`: its controller-created worktree was inside the Git checkout, but no research, canonical mutation, commit, or remote mutation occurred. The failed pilot manifest/report and branch are preserved. The reviewed and approved worktree-isolation remediation places future worktrees outside the Git top-level checkout, with 31 passing tests; no shadow-autonomy research has yet run. The controller remains the enforcement/state-machine layer, while bounded research reasoning is supplied only through its structured stage-runner interface. No Market Analysis or downstream commercial autonomy exists. CFD pass 3 remains closed with its benefits-enrollment/payroll/carrier-reconciliation `REJECT`; PER-011 and PER-012 remain closed with zero Problems promoted. The PER-002 and PER-008 no-residual-paid-job conclusions remain closed.
+**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. Shadow pilot #1 remains preserved as `FORBIDDEN_WRITE`: its controller-created worktree was inside the Git checkout, but no research, canonical mutation, commit, or remote mutation occurred. Its failed manifest/report and branch remain preserved. The three post-remediation Bundle 1 runs (`SHADOW-20260909T223355Z-0001`, `SHADOW-20260909T224106Z-0001`, and `SHADOW-20260909T224615Z-0001`) are retained audit records and completed the initial safety pilot successfully: external worktrees, fixed CFD-only execution, allowlists, checks, manifests, primary/remote isolation, and no-remote-mutation controls all held. Their normal terminal outcomes were `CFD_REJECT`, `CFD_HOLD`, and `CFD_REJECT`; no canonical entity was created. Bundle 1 is now approved for deliberate routine bounded shadow discovery under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules, but no scheduler or continuous automation is authorized. Bundle 2 is implemented but remains unvalidated on a real approved candidate; it still requires an explicit valid human-approved candidate reference and its first real run remains a reviewed pilot. The controller remains the enforcement/state-machine layer, while bounded research reasoning is supplied only through its structured stage-runner interface. No Market Analysis or downstream commercial autonomy exists.
 
 ## NEXT ACTION
 
-Rerun Bundle 1 shadow pilot as a new run ID from the clean remediated baseline. Do not reuse `SHADOW-20260908T224814Z-0001`.
+Continue routine Bundle 1 shadow discovery under `manual-pilot-v2` until a legitimate `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception occurs. If `CFD_AUTHORIZE_SCOUT_REVIEW` occurs, stop and obtain explicit human approval before Bundle 2.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
@@ -76,7 +76,9 @@ Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-p
 - PER-012 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or further evidence accumulation before separately authorized.
 - PER-013 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or additional evidence accumulation before separately authorized.
 - Persona selection, Scout research, or downstream work before a future CFD candidate is reviewed and explicitly approved.
-- Any shadow-pilot bundle other than the separately authorized Bundle 1 rerun, or any reuse of `SHADOW-20260908T224814Z-0001`.
+- Bundle 2 without a separately reviewed, explicit valid human-approved candidate reference; its first real run remains a reviewed pilot.
+- Automatic scheduling or continuous shadow operation.
+- Any automatic transition from Bundle 1 to Bundle 2, or any reuse of `SHADOW-20260908T224814Z-0001`.
 - Demand experiments.
 - Automation activation.
 - Scoring-rubric changes.

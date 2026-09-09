@@ -15,6 +15,14 @@ Run from a clean `main` baseline. The controller exposes worktree, structured-st
 
 The default for a future runner is to preserve an isolated worktree uncommitted. The controller exposes an optional one-local-commit helper for a normal, passing terminal result. Human review decides whether to retain or remove any worktree; no automatic cleanup occurs.
 
+## Operating status and worktree hygiene
+
+Bundle 1 completed its initial three-run safety pilot with normal `CFD_REJECT` and `CFD_HOLD` terminal outcomes. It may now be deliberately invoked as routine bounded discovery under the unchanged `shadow-pilot-v1` policy and `manual-pilot-v2` gate. This authorizes neither a scheduler nor continuous operation. A routine normal outcome may authorize another deliberate Bundle 1 invocation without a new strategy review only when controller safety, validator, tests, write checks, and local/remote isolation all pass without an exception.
+
+`CFD_AUTHORIZE_SCOUT_REVIEW` and every exception or enforcement code still require human/ChatGPT review. Bundle 2 remains a first-run pilot: a CFD card is never approval by itself, and its explicit human approval reference remains mandatory.
+
+To prevent worktree accumulation, retain each completed run's card, JSON manifest, and Markdown report in the main repository before a human-directed mechanical cleanup. After that retention, an external `REJECT` or `HOLD` worktree may be removed with its local branch only when the operator has verified the retained artifacts; never delete the retained audit records. There is no automatic cleanup.
+
 ## Stage-result contract
 
 Each result is JSON with `stage`, `completed`, `decision`, `reason`, `expected_files`, `evidence`, `entities`, `source_exception`, and `safety_exception`. The controller uses these fields—not prose—to choose its fixed stop code. A future Codex runner must write these results and may not select other stages.

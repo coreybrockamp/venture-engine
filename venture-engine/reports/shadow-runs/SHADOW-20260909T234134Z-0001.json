@@ -1,0 +1,43 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260909T234134Z-0001",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {
+    "candidate_cards": 1,
+    "context_selection": "public commercial evidence and methodological rules only; no user-history context used",
+    "post_adoption_signals": 0,
+    "same_mechanism_confirmed": 0,
+    "source_types": 1,
+    "total_independent_urls": 1
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "reports/shadow-runs/SHADOW-20260909T234134Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260909T234134Z-0001.md",
+    "research/commercial-friction-discovery/2026-09-09-ecommerce-multichannel-order-reconciliation.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260909T234134Z-0001",
+  "stages_attempted": [
+    "cfd"
+  ],
+  "stages_completed": [
+    "cfd"
+  ],
+  "started_at": "2026-09-09T23:41:38.310776Z",
+  "starting_commit": "2a2089515746f6ad8437a2aa99b2ebff3e1ae7d7",
+  "terminal_reason": "The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls.",
+  "terminal_stop_code": "CFD_REJECT",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234134Z-0001"
+}

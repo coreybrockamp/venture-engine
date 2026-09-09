@@ -59,7 +59,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The first supervised batch, `BATCH-20260909T233459Z`, failed before CFD began because formatted external worktree paths were re-split by the stage-runner command launcher; its zero-run audit and failed external worktree are preserved. The argv-safe repair is reviewed and approved. Bundle 1 routine single-run discovery and the bounded batch runner remain approved under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules. A new batch must use a fresh batch ID and fresh shadow run IDs; no scheduler, continuous operation, Bundle 2, Scout, Market Analysis, or downstream commercial autonomy is authorized.
+**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234134Z-0001` stopped `CFD_REJECT`: The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
 
 ## NEXT ACTION
 

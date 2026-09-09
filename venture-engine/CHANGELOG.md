@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-09 — Supervised Bundle 1 batch discovery
+
+- Evaluated `SHADOW-20260909T234134Z-0001` as a non-canonical CFD card and stopped `CFD_REJECT`: The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
 ## 2026-09-09 — Batch stage-runner argv repair
 
 - Preserved failed batch `BATCH-20260909T233459Z` as `BATCH_FAILED` with zero completed CFD runs. Its audit was retained through the existing controlled batch-audit path; no CFD or canonical mutation occurred.

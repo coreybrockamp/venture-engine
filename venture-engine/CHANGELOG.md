@@ -2,6 +2,11 @@
 
 ## 2026-09-09 — Supervised Bundle 1 batch discovery
 
+- Evaluated `SHADOW-20260909T234210Z-0005` as a non-canonical CFD card and stopped `CFD_REJECT`: The manual bridge is real but source-concentrated and materially absorbed by accounting/AP integration and ordinary coding process; it does not pass the v2 gate.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
+## 2026-09-09 — Supervised Bundle 1 batch discovery
+
 - Evaluated `SHADOW-20260909T234201Z-0004` as a non-canonical CFD card and stopped `CFD_REJECT`: The signal is source-quality-limited and plausibly configuration/master-data work. It fails paid-residual and structural-generalization requirements.
 - No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
 

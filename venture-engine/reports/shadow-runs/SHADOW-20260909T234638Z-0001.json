@@ -1,0 +1,43 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260909T234638Z-0001",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {
+    "candidate_cards": 1,
+    "context_selection": "public commercial evidence and methodological rules only; no user-history context used",
+    "post_adoption_signals": 0,
+    "same_mechanism_confirmed": 0,
+    "source_types": 1,
+    "total_independent_urls": 1
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "reports/shadow-runs/SHADOW-20260909T234638Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260909T234638Z-0001.md",
+    "research/commercial-friction-discovery/2026-09-09-procurement-jira-nav-po-rekeying.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260909T234638Z-0001",
+  "stages_attempted": [
+    "cfd"
+  ],
+  "stages_completed": [
+    "cfd"
+  ],
+  "started_at": "2026-09-09T23:46:42.322857Z",
+  "starting_commit": "2e90fd3b5bc42527cd24f4f55bbd996813cf7aae",
+  "terminal_reason": "The duplicate entry is real but implementation-specific and does not establish a vendor-independent residual paid job after competent system selection and integration.",
+  "terminal_stop_code": "CFD_REJECT",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234638Z-0001"
+}

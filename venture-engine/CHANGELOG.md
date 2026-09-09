@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-09 — Routine Bundle 1 batch discovery
+
+- Evaluated `SHADOW-20260909T234638Z-0001` as a non-canonical CFD card and stopped `CFD_REJECT`: The duplicate entry is real but implementation-specific and does not establish a vendor-independent residual paid job after competent system selection and integration.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
 ## 2026-09-09 — First supervised Bundle 1 batch completion
 
 - Completed `BATCH-20260909T234130Z` with five fresh external worktrees and five accepted `CFD_REJECT` outcomes under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules.

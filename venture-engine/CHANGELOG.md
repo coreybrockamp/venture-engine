@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — First supervised Bundle 1 batch completion
+
+- Completed `BATCH-20260909T234130Z` with five fresh external worktrees and five accepted `CFD_REJECT` outcomes under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules.
+- Retained each non-canonical card and individual audit artifact on `main`; the normal-run acceptance helper pushed each result and safely removed its completed worktree/branch. The batch JSON/Markdown audit is retained separately.
+- No candidate reached `CFD_AUTHORIZE_SCOUT_REVIEW`; no persona, canonical entity, Scout, Bundle 2, Market Analysis, or downstream work ran.
+
 ## 2026-09-09 — Supervised Bundle 1 batch discovery
 
 - Evaluated `SHADOW-20260909T234210Z-0005` as a non-canonical CFD card and stopped `CFD_REJECT`: The manual bridge is real but source-concentrated and materially absorbed by accounting/AP integration and ordinary coding process; it does not pass the v2 gate.

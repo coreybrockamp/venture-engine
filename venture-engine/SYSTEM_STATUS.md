@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:38:28Z
+2026-09-09T23:42:16Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234210Z-0005` stopped `CFD_REJECT`: The manual bridge is real but source-concentrated and materially absorbed by accounting/AP integration and ordinary coding process; it does not pass the v2 gate. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
+**No active persona pipeline.** Supervised Bundle 1 batch `BATCH-20260909T234130Z` completed all five runs as safely accepted `CFD_REJECT`s under unchanged `shadow-pilot-v1` and `manual-pilot-v2`; every card, manifest, and report is retained on `main`, and every completed worktree/branch was cleaned. No candidate reached `CFD_AUTHORIZE_SCOUT_REVIEW`; no canonical entity, Scout, Bundle 2, Market Analysis, or downstream stage ran. Historical failed batch `BATCH-20260909T233459Z` and its failed external worktree remain preserved.
 
 ## NEXT ACTION
 
-Rerun the first supervised Bundle 1 discovery batch with `--max-runs 5` as a new batch ID and fresh shadow run IDs; preserve `BATCH-20260909T233459Z` unchanged.
+A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

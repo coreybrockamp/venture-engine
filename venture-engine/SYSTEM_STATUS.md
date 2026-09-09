@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:42:16Z
+2026-09-09T23:47:19Z
 
 ## Project Mission
 
@@ -59,7 +59,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234714Z-0005` stopped `CFD_REJECT`: This is implementation and service absorption evidence, not a structurally generalizable residual paid job. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
+**No active persona pipeline.** Supervised Bundle 1 batch `BATCH-20260909T234635Z` completed five accepted `CFD_REJECT` runs under unchanged `shadow-pilot-v1` and `manual-pilot-v2`. Cards and individual/batch audit artifacts are retained on `main`; completed run worktrees and branches were cleaned. No candidate reached `CFD_AUTHORIZE_SCOUT_REVIEW`, and no canonical entity, Scout, Bundle 2, or downstream stage ran. The historical failed batch and its intentionally preserved worktree remain auditable.
 
 ## NEXT ACTION
 

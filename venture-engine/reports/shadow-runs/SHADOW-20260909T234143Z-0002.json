@@ -1,0 +1,43 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260909T234143Z-0002",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {
+    "candidate_cards": 1,
+    "context_selection": "public commercial evidence and methodological rules only; no user-history context used",
+    "post_adoption_signals": 0,
+    "same_mechanism_confirmed": 0,
+    "source_types": 1,
+    "total_independent_urls": 1
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "reports/shadow-runs/SHADOW-20260909T234143Z-0002.json",
+    "reports/shadow-runs/SHADOW-20260909T234143Z-0002.md",
+    "research/commercial-friction-discovery/2026-09-09-ecommerce-reverse-logistics-back-office.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260909T234143Z-0002",
+  "stages_attempted": [
+    "cfd"
+  ],
+  "stages_completed": [
+    "cfd"
+  ],
+  "started_at": "2026-09-09T23:41:47.468274Z",
+  "starting_commit": "9ce745bc24ced59a53f80d0e1ddcd9402653452a",
+  "terminal_reason": "The workflow is paid and operationally consequential, but the evidence is one-source-type and contains direct incumbent/process absorption; structural generalization is not established.",
+  "terminal_stop_code": "CFD_REJECT",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234143Z-0002"
+}

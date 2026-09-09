@@ -2,6 +2,11 @@
 
 ## 2026-09-09 — Supervised Bundle 1 batch discovery
 
+- Evaluated `SHADOW-20260909T234143Z-0002` as a non-canonical CFD card and stopped `CFD_REJECT`: The workflow is paid and operationally consequential, but the evidence is one-source-type and contains direct incumbent/process absorption; structural generalization is not established.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
+## 2026-09-09 — Supervised Bundle 1 batch discovery
+
 - Evaluated `SHADOW-20260909T234134Z-0001` as a non-canonical CFD card and stopped `CFD_REJECT`: The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls.
 - No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
 

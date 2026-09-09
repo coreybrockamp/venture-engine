@@ -59,7 +59,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234134Z-0001` stopped `CFD_REJECT`: The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
+**No active persona pipeline.** Supervised Bundle 1 batch run `SHADOW-20260909T234143Z-0002` stopped `CFD_REJECT`: The workflow is paid and operationally consequential, but the evidence is one-source-type and contains direct incumbent/process absorption; structural generalization is not established. No canonical entity or downstream stage ran. The batch controller may continue only after routine acceptance and a clean synchronized main baseline.
 
 ## NEXT ACTION
 

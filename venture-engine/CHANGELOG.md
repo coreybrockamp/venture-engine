@@ -2,6 +2,11 @@
 
 ## 2026-09-09 — Routine Bundle 1 batch discovery
 
+- Evaluated `SHADOW-20260909T234647Z-0002` as a non-canonical CFD card and stopped `CFD_REJECT`: The signal is normal incumbent configuration work, not evidence of a distinct residual paid job.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
+## 2026-09-09 — Routine Bundle 1 batch discovery
+
 - Evaluated `SHADOW-20260909T234638Z-0001` as a non-canonical CFD card and stopped `CFD_REJECT`: The duplicate entry is real but implementation-specific and does not establish a vendor-independent residual paid job after competent system selection and integration.
 - No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
 

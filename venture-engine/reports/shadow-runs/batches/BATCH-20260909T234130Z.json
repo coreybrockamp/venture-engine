@@ -1,0 +1,70 @@
+{
+  "authorize_scout_occurred": false,
+  "batch_id": "BATCH-20260909T234130Z",
+  "batch_status": "BATCH_COMPLETE",
+  "ending_main_sha": "4a9e46a2777e342f727f61d354012060b8d51f1f",
+  "finished_at": "2026-09-09T23:42:16.624529Z",
+  "hold_count": 0,
+  "main_origin_synchronized": true,
+  "next_human_decision": "A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.",
+  "reject_count": 5,
+  "requested_max_runs": 5,
+  "run_ids": [
+    "SHADOW-20260909T234134Z-0001",
+    "SHADOW-20260909T234143Z-0002",
+    "SHADOW-20260909T234152Z-0003",
+    "SHADOW-20260909T234201Z-0004",
+    "SHADOW-20260909T234210Z-0005"
+  ],
+  "runs": [
+    {
+      "acceptance": "ACCEPTED:9ce745bc24ced59a53f80d0e1ddcd9402653452a",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234134Z-0001",
+      "starting_commit": "2a2089515746f6ad8437a2aa99b2ebff3e1ae7d7",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The reconciliation signal is real, but it is concentrated in one public discussion and is plausibly addressed by integration coverage, exception configuration, and ordinary accounting controls.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234134Z-0001"
+    },
+    {
+      "acceptance": "ACCEPTED:f815d5791f7597fb2c9670bc517d9e81d41a2fce",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234143Z-0002",
+      "starting_commit": "9ce745bc24ced59a53f80d0e1ddcd9402653452a",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The workflow is paid and operationally consequential, but the evidence is one-source-type and contains direct incumbent/process absorption; structural generalization is not established.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234143Z-0002"
+    },
+    {
+      "acceptance": "ACCEPTED:edc397b85ed978f51e6af86cb90b7cf878f037f7",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234152Z-0003",
+      "starting_commit": "f815d5791f7597fb2c9670bc517d9e81d41a2fce",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "This is primarily setup and operational-discipline friction. The pass found no attributable post-adoption residual mechanism, buyer gap, or structural recurrence.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234152Z-0003"
+    },
+    {
+      "acceptance": "ACCEPTED:f851c20bf189d41b79a9982bec2849bcd9c65521",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234201Z-0004",
+      "starting_commit": "edc397b85ed978f51e6af86cb90b7cf878f037f7",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The signal is source-quality-limited and plausibly configuration/master-data work. It fails paid-residual and structural-generalization requirements.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234201Z-0004"
+    },
+    {
+      "acceptance": "ACCEPTED:4a9e46a2777e342f727f61d354012060b8d51f1f",
+      "cleanup": "CLEANED",
+      "run_id": "SHADOW-20260909T234210Z-0005",
+      "starting_commit": "f851c20bf189d41b79a9982bec2849bcd9c65521",
+      "terminal_code": "CFD_REJECT",
+      "terminal_reason": "The manual bridge is real but source-concentrated and materially absorbed by accounting/AP integration and ordinary coding process; it does not pass the v2 gate.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T234210Z-0005"
+    }
+  ],
+  "runs_attempted": 5,
+  "started_at": "20260909T234130Z",
+  "starting_main_sha": "2a2089515746f6ad8437a2aa99b2ebff3e1ae7d7",
+  "stop_reason": "Requested maximum reached."
+}

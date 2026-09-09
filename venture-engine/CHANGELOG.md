@@ -2,6 +2,11 @@
 
 ## 2026-09-09 — Supervised Bundle 1 batch discovery
 
+- Evaluated `SHADOW-20260909T234152Z-0003` as a non-canonical CFD card and stopped `CFD_REJECT`: This is primarily setup and operational-discipline friction. The pass found no attributable post-adoption residual mechanism, buyer gap, or structural recurrence.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
+## 2026-09-09 — Supervised Bundle 1 batch discovery
+
 - Evaluated `SHADOW-20260909T234143Z-0002` as a non-canonical CFD card and stopped `CFD_REJECT`: The workflow is paid and operationally consequential, but the evidence is one-source-type and contains direct incumbent/process absorption; structural generalization is not established.
 - No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
 

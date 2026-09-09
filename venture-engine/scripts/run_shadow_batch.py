@@ -13,6 +13,7 @@ import json
 import shlex
 import subprocess
 import sys
+from string import Formatter
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -120,15 +121,23 @@ class CommandStageRunner:
 
     def __init__(self, command_template: str):
         required = {"{run_id}", "{worktree}", "{result_path}"}
-        if not required <= set(token for token in required if token in command_template):
+        try:
+            self.argv_template = shlex.split(command_template)
+            fields = {field_name for _, field_name, _, _ in Formatter().parse(command_template) if field_name}
+        except ValueError as error:
+            raise ValueError(f"invalid --stage-runner command: {error}") from error
+        if not required <= {f"{{{field}}}" for field in fields}:
             raise ValueError("--stage-runner must include {run_id}, {worktree}, and {result_path}")
-        self.command_template = command_template
+        unsupported = fields - {"run_id", "worktree", "result_path"}
+        if unsupported:
+            raise ValueError(f"--stage-runner contains unsupported placeholders: {', '.join(sorted(unsupported))}")
 
     def __call__(self, run_id: str, worktree: Path) -> StageResult:
         engine = worktree / "venture-engine"
         result_path = engine / "reports" / "shadow-runs" / f"{run_id}.stage-result.json"
-        command = self.command_template.format(run_id=run_id, worktree=str(worktree), result_path=str(result_path))
-        completed = subprocess.run(shlex.split(command), cwd=engine, text=True, capture_output=True)
+        command = [token.format(run_id=run_id, worktree=str(worktree), result_path=str(result_path))
+                   for token in self.argv_template]
+        completed = subprocess.run(command, cwd=engine, text=True, capture_output=True)
         if completed.returncode:
             raise BatchError(f"stage runner failed: {completed.stderr.strip() or completed.stdout.strip()}")
         if not result_path.is_file():

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — Batch stage-runner argv repair
+
+- Preserved failed batch `BATCH-20260909T233459Z` as `BATCH_FAILED` with zero completed CFD runs. Its audit was retained through the existing controlled batch-audit path; no CFD or canonical mutation occurred.
+- Replaced post-substitution command splitting with token-level placeholder substitution and direct argv execution, so external worktree and result paths containing ordinary filesystem characters remain single arguments.
+- Added focused regressions for spaces, parentheses, apostrophes, multiple placeholders, malformed templates, process failure, and no continuation after runner failure. The repair is reviewed and approved; no batch rerun occurred.
+
 ## 2026-09-09 — Bounded Bundle 1 batch-discovery runner
 
 - Added `scripts/run_shadow_batch.py`, a foreground-only wrapper that composes the existing controller and normal-run acceptance helper for an explicitly initiated batch of 1–10 independent Bundle 1 CFD runs.

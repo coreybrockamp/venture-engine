@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:29:34Z
+2026-09-09T23:38:28Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Bundle 1 routine single-run discovery remains approved under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules. The bounded batch-discovery runner is reviewed and approved but has not run live: a human must explicitly invoke it with a compatible structured CFD stage runner; it defaults to 5 runs and permits at most 10. Each cycle starts from the latest clean, synchronized `main`; routine `CFD_REJECT` / `CFD_HOLD` outcomes may be accepted and archived before the next cycle. `CFD_AUTHORIZE_SCOUT_REVIEW` and every controller, source, safety, validation, acceptance, cleanup, or baseline exception stop the batch for review. No scheduler, continuous operation, Bundle 2, Scout, Market Analysis, or downstream commercial autonomy is authorized. Bundle 2 remains an unvalidated first-run pilot and still requires an explicit valid human-approved candidate reference.
+**No active persona pipeline.** The first supervised batch, `BATCH-20260909T233459Z`, failed before CFD began because formatted external worktree paths were re-split by the stage-runner command launcher; its zero-run audit and failed external worktree are preserved. The argv-safe repair is reviewed and approved. Bundle 1 routine single-run discovery and the bounded batch runner remain approved under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules. A new batch must use a fresh batch ID and fresh shadow run IDs; no scheduler, continuous operation, Bundle 2, Scout, Market Analysis, or downstream commercial autonomy is authorized.
 
 ## NEXT ACTION
 
-Run the first supervised Bundle 1 discovery batch with `--max-runs 5`. Stop automatically on any `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception; otherwise complete and archive up to five routine discovery runs.
+Rerun the first supervised Bundle 1 discovery batch with `--max-runs 5` as a new batch ID and fresh shadow run IDs; preserve `BATCH-20260909T233459Z` unchanged.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

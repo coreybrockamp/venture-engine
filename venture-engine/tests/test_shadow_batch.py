@@ -1,4 +1,5 @@
 import json
+import shlex
 import shutil
 import sys
 import tempfile
@@ -10,6 +11,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from run_shadow_batch import (
     BatchError,
     BatchOutcome,
+    CommandStageRunner,
     DEFAULT_RUNS,
     MAX_RUNS,
     MIN_RUNS,
@@ -205,6 +207,71 @@ class ShadowBatchRunnerTests(unittest.TestCase):
         self.assertEqual(outcome.status, "BATCH_FAILED")
         self.assertEqual(len(outcome.runs), 1)
         self.assertEqual(outcome.runs[0].acceptance, "NOT_ACCEPTED")
+        self.assertEqual(holder.accepted, [])
+
+    def test_command_stage_runner_preserves_special_paths_as_single_arguments(self):
+        with tempfile.TemporaryDirectory(prefix="shadow worktree (spaces) '") as directory:
+            worktree = Path(directory) / "New project (runner)"
+            engine = worktree / "venture-engine"
+            engine.mkdir(parents=True)
+            runner_script = Path(directory) / "capture runner.py"
+            runner_script.write_text(
+                "import argparse, json\n"
+                "from pathlib import Path\n"
+                "p = argparse.ArgumentParser()\n"
+                "p.add_argument('--run-id'); p.add_argument('--worktree'); p.add_argument('--result-path')\n"
+                "a = p.parse_args()\n"
+                "result = Path(a.result_path); result.parent.mkdir(parents=True, exist_ok=True)\n"
+                "result.with_suffix('.args.json').write_text(json.dumps(vars(a)))\n"
+                "result.write_text(json.dumps({'stage':'cfd','completed':True,'decision':'REJECT','reason':'test','expected_files':[], 'evidence':{}, 'entities':{}, 'source_exception':None, 'safety_exception':None, 'next_transition':'stop'}))\n"
+            )
+            template = f"{shlex.quote(sys.executable)} {shlex.quote(str(runner_script))} --run-id={{run_id}} --worktree={{worktree}} --result-path={{result_path}}"
+            run_id = "SHADOW-20260909T235000Z-0001"
+            CommandStageRunner(template)(run_id, worktree)
+            result_path = engine / "reports" / "shadow-runs" / f"{run_id}.stage-result.json"
+            captured = json.loads(result_path.with_suffix(".args.json").read_text())
+            self.assertEqual(captured["run_id"], run_id)
+            self.assertEqual(captured["worktree"], str(worktree))
+            self.assertEqual(captured["result_path"], str(result_path))
+            self.assertFalse(result_path.exists())
+
+    def test_command_stage_runner_fails_closed_for_malformed_and_failed_commands(self):
+        with self.assertRaisesRegex(ValueError, "invalid --stage-runner"):
+            CommandStageRunner("python3 '{run_id}")
+        with self.assertRaisesRegex(ValueError, "must include"):
+            CommandStageRunner("python3 {run_id}")
+        with tempfile.TemporaryDirectory(prefix="runner failure ") as directory:
+            worktree = Path(directory) / "worktree with spaces"
+            (worktree / "venture-engine").mkdir(parents=True)
+            failing = Path(directory) / "fails.py"
+            failing.write_text("raise SystemExit(7)\n")
+            command = f"{shlex.quote(sys.executable)} {shlex.quote(str(failing))} --run-id={{run_id}} --worktree={{worktree}} --result-path={{result_path}}"
+            with self.assertRaisesRegex(BatchError, "stage runner failed"):
+                CommandStageRunner(command)("SHADOW-20260909T235001Z-0001", worktree)
+
+    def test_command_stage_runner_supports_normal_paths(self):
+        with tempfile.TemporaryDirectory() as directory:
+            worktree = Path(directory) / "worktree"
+            engine = worktree / "venture-engine"
+            engine.mkdir(parents=True)
+            runner_script = Path(directory) / "runner.py"
+            runner_script.write_text(
+                "import argparse, json\nfrom pathlib import Path\n"
+                "p=argparse.ArgumentParser(); p.add_argument('--run-id'); p.add_argument('--worktree'); p.add_argument('--result-path'); a=p.parse_args()\n"
+                "r=Path(a.result_path); r.parent.mkdir(parents=True, exist_ok=True); r.write_text(json.dumps({'stage':'cfd','completed':True,'decision':'REJECT','reason':'ok','expected_files':[], 'evidence':{}, 'entities':{}, 'source_exception':None, 'safety_exception':None, 'next_transition':'stop'}))\n"
+            )
+            command = f"{shlex.quote(sys.executable)} {shlex.quote(str(runner_script))} --run-id={{run_id}} --worktree={{worktree}} --result-path={{result_path}}"
+            result = CommandStageRunner(command)("SHADOW-20260909T235002Z-0001", worktree)
+            self.assertEqual(result.decision, "REJECT")
+
+    def test_runner_failure_stops_before_any_cfd_continuation(self):
+        holder, runner = self.make(["REJECT"])
+        def fail(_run_id, _worktree):
+            raise BatchError("stage runner failed: test")
+        runner.stage_runner = fail
+        outcome = runner.run(2, "BATCH-test")
+        self.assertEqual(outcome.status, "BATCH_FAILED")
+        self.assertEqual(outcome.runs, [])
         self.assertEqual(holder.accepted, [])
 
 

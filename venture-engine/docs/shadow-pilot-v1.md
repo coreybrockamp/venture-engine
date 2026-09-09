@@ -25,6 +25,12 @@ To prevent worktree accumulation, retain each completed run's card, JSON manifes
 
 `scripts/accept_shadow_run.py` is the explicit mechanical acceptance command for one normal Bundle 1 run. It refuses anything except a passed `CFD_REJECT` or `CFD_HOLD` manifest with an exact allowed shadow diff, no canonical entities, passed checks, no remote mutation, and a clean forward-compatible `main` baseline. It copies only manifest-declared artifacts, commits and pushes from `main`, then verifies preservation before removing the external worktree and local shadow branch. It cannot accept an escalation, Bundle 2, canonical change, or audit inconsistency.
 
+## Bounded routine batches
+
+`scripts/run_shadow_batch.py` is an explicit foreground wrapper for up to 10 sequential Bundle 1 runs (`--max-runs`, default 5). It re-resolves a clean, synchronized `main` after every accepted run; it never reuses a run ID or worktree. Each normal `CFD_REJECT` or `CFD_HOLD` is accepted only through `accept_shadow_run.py`. Any escalation, controller/check/allowlist failure, acceptance/cleanup failure, or dirty/unsynchronized baseline stops the batch immediately.
+
+The batch CLI requires an explicitly supplied, reviewed CFD stage-runner command that returns the existing structured `StageResult` contract. It does not independently browse, invent a candidate, select a persona, dispatch unrestricted agents, schedule work, or enter Bundle 2. `CFD_AUTHORIZE_SCOUT_REVIEW` preserves its worktree for human review and is never routine-accepted. The wrapper records JSON and Markdown operational batch audits under `reports/shadow-runs/batches/` through the existing acceptance helper's safe commit/push path; these are not canonical customer evidence.
+
 ## Stage-result contract
 
 Each result is JSON with `stage`, `completed`, `decision`, `reason`, `expected_files`, `evidence`, `entities`, `source_exception`, and `safety_exception`. The controller uses these fields—not prose—to choose its fixed stop code. A future Codex runner must write these results and may not select other stages.

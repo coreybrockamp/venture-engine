@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — Bounded Bundle 1 batch-discovery runner
+
+- Added `scripts/run_shadow_batch.py`, a foreground-only wrapper that composes the existing controller and normal-run acceptance helper for an explicitly initiated batch of 1–10 independent Bundle 1 CFD runs.
+- Each iteration requires a fresh external worktree and current clean/synchronized `main`; normal `REJECT`/`HOLD` outcomes are retained only through the existing acceptance helper. Escalations, check failures, acceptance/cleanup failures, and dirty or unsynchronized baselines stop the batch.
+- The wrapper requires an explicit reviewed structured CFD stage runner, has no scheduler or Bundle 2/Scout transition, and records separate operational batch summaries without replacing individual audit records.
+
 ## 2026-09-09 — Routine Bundle 1 shadow discovery
 
 - Completed `SHADOW-20260909T230443Z-0001` in a fresh external worktree under unchanged `shadow-pilot-v1` and `manual-pilot-v2`; the controller evaluated one non-canonical nonprofit-grant-tracking-continuity card and stopped `CFD_REJECT`.

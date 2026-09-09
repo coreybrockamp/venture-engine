@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -131,6 +132,29 @@ class ShadowRunAcceptor:
                     raise AcceptanceError("retained artifact changed before cleanup")
             self.git(["worktree", "remove", "--force", str(worktree.resolve())], repository)
             self.git(["branch", "-d", manifest["branch"]], repository)
+        return commit
+
+    def record_batch_audit(self, batch_id: str, payload: dict, markdown: str, push: bool = True) -> str:
+        """Retain one operational batch summary through the existing safe Git path."""
+        if not re.fullmatch(r"BATCH-\d{8}T\d{6}Z", batch_id):
+            raise AcceptanceError("invalid batch audit ID")
+        self.verify_main({"starting_commit": self.git(["rev-parse", "HEAD"]).strip()})
+        directory = self.root / "reports" / "shadow-runs" / "batches"
+        json_path, markdown_path = directory / f"{batch_id}.json", directory / f"{batch_id}.md"
+        if json_path.exists() or markdown_path.exists():
+            raise AcceptanceError("batch audit ID already exists and cannot be reused")
+        directory.mkdir(parents=True, exist_ok=True)
+        json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+        markdown_path.write_text(markdown)
+        repository = self.repository_root()
+        paths = [f"{self.root.name}/{json_path.relative_to(self.root)}", f"{self.root.name}/{markdown_path.relative_to(self.root)}"]
+        self.git(["add", "--", *paths], repository)
+        self.git(["commit", "-m", f"venture engine: record shadow batch {batch_id}"], repository)
+        commit = self.git(["rev-parse", "HEAD"], repository).strip()
+        if push:
+            self.git(["push", "origin", "main"], repository)
+            if self.git(["rev-parse", "HEAD"], repository).strip() != self.git(["rev-parse", "origin/main"], repository).strip():
+                raise AcceptanceError("batch audit push did not synchronize main")
         return commit
 
 

@@ -110,6 +110,14 @@ class ShadowRunAcceptanceTests(unittest.TestCase):
         ShadowRunAcceptor(engine).accept(worktree, run_id, push=False)
         self.assertEqual((engine / "reports/shadow-runs/historical.md").read_text(), "preserve\n")
 
+    def test_batch_audit_uses_the_existing_safe_git_path(self):
+        _, engine, _, _, _, _ = self.accept()
+        commit = ShadowRunAcceptor(engine).record_batch_audit("BATCH-20260909T230000Z", {"status": "BATCH_COMPLETE"}, "# batch\n", push=False)
+        self.assertTrue(commit)
+        self.assertTrue((engine / "reports/shadow-runs/batches/BATCH-20260909T230000Z.json").is_file())
+        with self.assertRaisesRegex(AcceptanceError, "cannot be reused"):
+            ShadowRunAcceptor(engine).record_batch_audit("BATCH-20260909T230000Z", {}, "# duplicate\n", push=False)
+
 
 if __name__ == "__main__":
     unittest.main()

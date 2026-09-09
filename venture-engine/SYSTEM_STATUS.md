@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:04:43Z
+2026-09-09T23:29:34Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Bundle 1 routine run `SHADOW-20260909T230443Z-0001` completed in an external worktree with `CFD_REJECT`: nonprofit grant-tracking continuity showed real spreadsheet use beside paid systems, but evidence was single-source-type, the mechanism was not common across competent implementations, and incumbent/process absorption remained plausible. The run passed controller safety, validator, tests, and allowlist checks with no canonical mutation or remote action. The three-run Bundle 1 pilot remains closed; routine bounded discovery is authorized under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules, but no scheduler or continuous automation is authorized. Bundle 2 is implemented but remains unvalidated on a real approved candidate; it still requires an explicit valid human-approved candidate reference and its first real run remains a reviewed pilot. No Market Analysis or downstream commercial autonomy exists.
+**No active persona pipeline.** Bundle 1 routine single-run discovery remains approved under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules. The bounded batch-discovery runner is reviewed and approved but has not run live: a human must explicitly invoke it with a compatible structured CFD stage runner; it defaults to 5 runs and permits at most 10. Each cycle starts from the latest clean, synchronized `main`; routine `CFD_REJECT` / `CFD_HOLD` outcomes may be accepted and archived before the next cycle. `CFD_AUTHORIZE_SCOUT_REVIEW` and every controller, source, safety, validation, acceptance, cleanup, or baseline exception stop the batch for review. No scheduler, continuous operation, Bundle 2, Scout, Market Analysis, or downstream commercial autonomy is authorized. Bundle 2 remains an unvalidated first-run pilot and still requires an explicit valid human-approved candidate reference.
 
 ## NEXT ACTION
 
-Continue routine Bundle 1 shadow discovery under `manual-pilot-v2` until a legitimate `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception occurs. If `CFD_AUTHORIZE_SCOUT_REVIEW` occurs, stop and obtain explicit human approval before Bundle 2.
+Run the first supervised Bundle 1 discovery batch with `--max-runs 5`. Stop automatically on any `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception; otherwise complete and archive up to five routine discovery runs.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

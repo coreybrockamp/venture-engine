@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:00:00Z
+2026-09-09T22:53:21Z
 
 ## Project Mission
 
@@ -59,7 +59,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** PER-013 is closed at Problem Clustering with 0 Problems promoted. Its CFD pass-4 `manual-pilot-v2` card is recorded as `SCOUT_NO_PROBLEM`: Scout independently reproduced paid-human bridging and broad external-referral workflow recurrence, but no formal residual Problem survived the mature-stack, incumbent/process, and human-work boundary tests. No Market Analysis, competitor, Opportunity, score, experiment, or automation was created. The human-approved CFD `manual-pilot-v2` gate remains active and unchanged. Shadow pilot #1 remains preserved as `FORBIDDEN_WRITE`: its controller-created worktree was inside the Git checkout, but no research, canonical mutation, commit, or remote mutation occurred. Its failed manifest/report and branch remain preserved. The three post-remediation Bundle 1 runs (`SHADOW-20260909T223355Z-0001`, `SHADOW-20260909T224106Z-0001`, and `SHADOW-20260909T224615Z-0001`) are retained audit records and completed the initial safety pilot successfully: external worktrees, fixed CFD-only execution, allowlists, checks, manifests, primary/remote isolation, and no-remote-mutation controls all held. Their normal terminal outcomes were `CFD_REJECT`, `CFD_HOLD`, and `CFD_REJECT`; no canonical entity was created. Bundle 1 is now approved for deliberate routine bounded shadow discovery under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules, but no scheduler or continuous automation is authorized. Bundle 2 is implemented but remains unvalidated on a real approved candidate; it still requires an explicit valid human-approved candidate reference and its first real run remains a reviewed pilot. The controller remains the enforcement/state-machine layer, while bounded research reasoning is supplied only through its structured stage-runner interface. No Market Analysis or downstream commercial autonomy exists.
+**No active persona pipeline.** Bundle 1 routine run `SHADOW-20260909T225321Z-0001` completed in an external worktree with `CFD_REJECT`: a dental-insurance-payment-posting signal was real but concentrated in a nonintegrated Tracker workflow and did not survive incumbent/clearinghouse absorption or structural-generalization checks. The run passed controller safety, validator, tests, and allowlist checks with no canonical mutation or remote action. The three-run Bundle 1 pilot remains closed; routine bounded discovery is authorized under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules, but no scheduler or continuous automation is authorized. Bundle 2 is implemented but remains unvalidated on a real approved candidate; it still requires an explicit valid human-approved candidate reference and its first real run remains a reviewed pilot. No Market Analysis or downstream commercial autonomy exists.
 
 ## NEXT ACTION
 

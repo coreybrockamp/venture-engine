@@ -1,0 +1,45 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260909T225321Z-0001",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {
+    "candidate_cards": 1,
+    "context_selection": "public commercial evidence and methodological rules only; no user-history context used",
+    "counterevidence_urls": 3,
+    "direct_customer_urls": 2,
+    "post_adoption_signals": 2,
+    "same_mechanism_confirmed": 0,
+    "source_types": 3,
+    "total_independent_urls": 5
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "reports/shadow-runs/SHADOW-20260909T225321Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260909T225321Z-0001.md",
+    "research/commercial-friction-discovery/2026-09-09-dental-insurance-payment-posting.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "Continue routine Bundle 1 shadow discovery under `manual-pilot-v2` until a legitimate `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception occurs. If `CFD_AUTHORIZE_SCOUT_REVIEW` occurs, stop and obtain explicit human approval before Bundle 2.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260909T225321Z-0001",
+  "stages_attempted": [
+    "cfd"
+  ],
+  "stages_completed": [
+    "cfd"
+  ],
+  "started_at": "2026-09-09T22:55:05.032218Z",
+  "starting_commit": "3b3cd9beff442b70d337b571491702ab7cb1d235",
+  "terminal_reason": "The dental-insurance-payment-posting signal is real but concentrated in one nonintegrated Tracker workflow; ERA/835, clearinghouse, and practice-management paths materially cover normal posting, and no vendor-independent structurally recurring residual mechanism is established.",
+  "terminal_stop_code": "CFD_REJECT",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T225321Z-0001"
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-09 — Routine Bundle 1 shadow discovery
+
+- Completed `SHADOW-20260909T225321Z-0001` in a fresh external worktree under unchanged `shadow-pilot-v1` and `manual-pilot-v2`; the controller evaluated one non-canonical dental-insurance-payment-posting card and stopped `CFD_REJECT`.
+- The card records one quantified manual Tracker workflow, but normal payment posting is materially covered by ERA/835, clearinghouse, and practice-management paths; the evidence does not establish a recurring vendor-independent residual mechanism.
+- No persona, Scout, canonical entity, score, experiment, commit, push, merge, external action, or remote mutation occurred.
+
 ## 2026-09-09 — Bundle 1 shadow-controller pilot closure
 
 - Retained the three successful post-remediation Bundle 1 run cards and audit artifacts. Their normal terminal outcomes were `CFD_REJECT`, `CFD_HOLD`, and `CFD_REJECT`; all passed controller safety, validator, tests, allowlist, manifest/report, and local/remote-isolation checks without canonical mutation or remote action.

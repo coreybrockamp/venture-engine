@@ -1,0 +1,18 @@
+{
+  "authorize_scout_occurred": false,
+  "batch_id": "BATCH-20260909T233459Z",
+  "batch_status": "BATCH_FAILED",
+  "ending_main_sha": "1af28f27777face459c2b847d1946b22f843a2c9",
+  "finished_at": "2026-09-09T23:35:03.299852Z",
+  "hold_count": 0,
+  "main_origin_synchronized": true,
+  "next_human_decision": "Review the failed batch audit and resolve the recorded safety or repository condition before another run.",
+  "reject_count": 0,
+  "requested_max_runs": 5,
+  "run_ids": [],
+  "runs": [],
+  "runs_attempted": 0,
+  "started_at": "20260909T233459Z",
+  "starting_main_sha": "1af28f27777face459c2b847d1946b22f843a2c9",
+  "stop_reason": "stage runner failed: usage: supervised_cfd_stage_runner.py [-h] --run-id RUN_ID --worktree WORKTREE\n                                      --result-path RESULT_PATH\nsupervised_cfd_stage_runner.py: error: unrecognized arguments: project-shadow-worktrees/SHADOW-20260909T233503Z-0001 project-shadow-worktrees/SHADOW-20260909T233503Z-0001/venture-engine/reports/shadow-runs/SHADOW-20260909T233503Z-0001.stage-result.json"
+}

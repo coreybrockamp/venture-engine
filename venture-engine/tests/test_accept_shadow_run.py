@@ -75,6 +75,13 @@ class ShadowRunAcceptanceTests(unittest.TestCase):
         (worktree / "venture-engine" / "reports/shadow-runs" / f"{run_id}.json").write_text(json.dumps(manifest))
         with self.assertRaisesRegex(AcceptanceError, "canonical entities"):
             ShadowRunAcceptor(engine).load_and_validate(worktree, run_id)
+        _, engine, worktree, run_id, _, manifest = self.accept()
+        manifest["files_changed"].append("data/observations.jsonl")
+        (worktree / "venture-engine" / "data").mkdir(exist_ok=True)
+        (worktree / "venture-engine" / "data" / "observations.jsonl").write_text("{}\n")
+        (worktree / "venture-engine" / "reports/shadow-runs" / f"{run_id}.json").write_text(json.dumps(manifest))
+        with self.assertRaisesRegex(AcceptanceError, "canonical changes"):
+            ShadowRunAcceptor(engine).load_and_validate(worktree, run_id)
 
     def test_manifest_diff_disagreement_is_refused(self):
         _, engine, worktree, run_id, _, _ = self.accept()

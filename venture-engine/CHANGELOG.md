@@ -2,6 +2,11 @@
 
 ## 2026-09-09 — Routine Bundle 1 batch discovery
 
+- Evaluated `SHADOW-20260909T234705Z-0004` as a non-canonical CFD card and stopped `CFD_REJECT`: The evidence does not support a separately paid, non-professional residual job after competent adoption.
+- No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
+
+## 2026-09-09 — Routine Bundle 1 batch discovery
+
 - Evaluated `SHADOW-20260909T234656Z-0003` as a non-canonical CFD card and stopped `CFD_REJECT`: No independent post-adoption recurrence or separate buyer case is established beyond routine workflow configuration.
 - No persona, canonical entity, Scout, Bundle 2, or downstream stage ran.
 

@@ -2,6 +2,12 @@
 
 ## 2026-09-09 — Routine Bundle 1 shadow discovery
 
+- Completed `SHADOW-20260909T230443Z-0001` in a fresh external worktree under unchanged `shadow-pilot-v1` and `manual-pilot-v2`; the controller evaluated one non-canonical nonprofit-grant-tracking-continuity card and stopped `CFD_REJECT`.
+- The card retains real spreadsheet use alongside paid grant/accounting tools, but the evidence is single-source-type and does not establish a shared residual mechanism after competent implementation; incumbent and normal-process absorption remained plausible.
+- No persona, Scout, canonical entity, score, experiment, commit, push, merge, external action, or remote mutation occurred.
+
+## 2026-09-09 — Routine Bundle 1 shadow discovery
+
 - Completed `SHADOW-20260909T225321Z-0001` in a fresh external worktree under unchanged `shadow-pilot-v1` and `manual-pilot-v2`; the controller evaluated one non-canonical dental-insurance-payment-posting card and stopped `CFD_REJECT`.
 - The card records one quantified manual Tracker workflow, but normal payment posting is materially covered by ERA/835, clearinghouse, and practice-management paths; the evidence does not establish a recurring vendor-independent residual mechanism.
 - No persona, Scout, canonical entity, score, experiment, commit, push, merge, external action, or remote mutation occurred.

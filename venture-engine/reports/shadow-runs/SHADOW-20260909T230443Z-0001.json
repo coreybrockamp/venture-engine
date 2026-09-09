@@ -1,0 +1,46 @@
+{
+  "approved_candidate_ref": null,
+  "branch": "codex/shadow/SHADOW-20260909T230443Z-0001",
+  "bundle": "discovery",
+  "entities_created": {
+    "observations": [],
+    "personas": [],
+    "problems": []
+  },
+  "evidence": {
+    "candidate_cards": 1,
+    "context_selection": "public commercial evidence and methodological rules only; no user-history context used",
+    "counterevidence_urls": 3,
+    "direct_customer_urls": 3,
+    "post_adoption_signals": 1,
+    "same_mechanism_confirmed": 0,
+    "source_types": 1,
+    "structural_generalization": "FAIL",
+    "total_independent_urls": 3
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "reports/shadow-runs/SHADOW-20260909T230443Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260909T230443Z-0001.md",
+    "research/commercial-friction-discovery/2026-09-09-nonprofit-grant-tracking-continuity.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "Continue routine Bundle 1 shadow discovery under `manual-pilot-v2` until a legitimate `CFD_AUTHORIZE_SCOUT_REVIEW` or controller exception occurs. If `CFD_AUTHORIZE_SCOUT_REVIEW` occurs, stop and obtain explicit human approval before Bundle 2.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260909T230443Z-0001",
+  "stages_attempted": [
+    "cfd"
+  ],
+  "stages_completed": [
+    "cfd"
+  ],
+  "started_at": "2026-09-09T23:06:17.093545Z",
+  "starting_commit": "26a3f79e4d3499bb75de86057f61a9217f0406fe",
+  "terminal_reason": "The nonprofit grant-tracking signal is real but single-source-type; it does not establish a common residual mechanism after competent adoption, while grant/accounting systems and normal ownership/process controls plausibly absorb the work.",
+  "terminal_stop_code": "CFD_REJECT",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260909T230443Z-0001"
+}

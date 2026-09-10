@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:47:19Z
+2026-09-09T23:55:00Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Supervised Bundle 1 batch `BATCH-20260909T234635Z` completed five accepted `CFD_REJECT` runs under unchanged `shadow-pilot-v1` and `manual-pilot-v2`. Cards and individual/batch audit artifacts are retained on `main`; completed run worktrees and branches were cleaned. No candidate reached `CFD_AUTHORIZE_SCOUT_REVIEW`, and no canonical entity, Scout, Bundle 2, or downstream stage ran. The historical failed batch and its intentionally preserved worktree remain auditable.
+**No active persona pipeline.** Historical CFD recall calibration is complete in `research/calibration/cfd-historical-recall/`. It made no live CFD, canonical, policy, controller, or downstream change. The simulated portfolio warns that `manual-pilot-v2` may have low recall outside its residual-paid-friction remit. A complementary discovery channel is approved in principle for future design only; it has not been designed or implemented. Routine Bundle 1 discovery remains operational under unchanged `manual-pilot-v2`; no scheduled or continuous discovery is authorized. The last live batch remains `BATCH-20260909T234635Z`; its retained audits and the preserved historical failed worktree remain auditable.
 
 ## NEXT ACTION
 
-A human may explicitly initiate another bounded Bundle 1 batch or single discovery run.
+Design a complementary bounded discovery channel for opportunity classes that CFD's residual-paid-friction model is structurally unlikely to detect. Do not implement or activate the channel during the design task.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

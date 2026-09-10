@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-09 — Historical CFD recall calibration
+
+- Added eight retrospective, non-canonical `manual-pilot-v2` simulations with pre-cutoff evidence ledgers, simulated gate decisions, and explicit hindsight firewalls; no live CFD or canonical record changed.
+- The portfolio returned 0/7 `AUTHORIZE_SCOUT`, 3/7 `HOLD`, and 4/7 `REJECT` across historical positives; the one failed control was rejected. A complementary discovery channel is approved in principle for future design only, without changing the live CFD gate.
+
 ## 2026-09-09 — Supervised Bundle 1 batch completion
 
 - Completed `BATCH-20260909T234635Z` with five fresh external worktrees and five accepted `CFD_REJECT` outcomes under unchanged `shadow-pilot-v1` and `manual-pilot-v2` rules.

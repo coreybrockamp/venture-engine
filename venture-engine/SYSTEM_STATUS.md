@@ -59,11 +59,17 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The MUD design, expanded historical calibration, bounded source strategy, and five-case source-method validation are complete and committed. The narrow Gate 6/8/9 refinement design in `decisions/market-unlock-discovery-source-strategy-gate-6-8-9-refinement.md` is complete and awaits review. It preserves the MUD gate and broader source strategy while targeting buyer/payer, authoritative enabler, and alternative-adequacy falsification evidence. MUD remains unimplemented and is not authorized for pilot or live discovery. CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
+**No active persona pipeline.**
+
+**Operational now — Commercial Friction Discovery (CFD):** `manual-pilot-v2` remains unchanged and routine Bundle 1 discovery is operational through the approved bounded batch/acceptance lifecycle. Normal `CFD_REJECT`/`CFD_HOLD` outcomes may complete routinely; `CFD_AUTHORIZE_SCOUT_REVIEW` and controller, source, or safety exceptions remain human escalations.
+
+**Paused — Market Unlock Discovery (MUD):** MUD is designed and historically calibrated, but public-web implementation is formally paused following final validation: `MUD_PUBLIC_WEB_VALIDATION_FAIL` and `NOT_ECONOMICAL`. No positive reached authorization under the unchanged gate while Juicero remained rejected. MUD remains unimplemented; no live MUD run or additional MUD calibration is authorized unless separately reopened because materially better source access or another explicit strategic reason exists.
+
+**Downstream:** The existing `Scout → Cluster → Market → Opportunity → Score → Experiment` pipeline remains unchanged. Bundle 2 still requires explicit human approval and remains pending its first legitimate approved-candidate pilot. Canonical data, controller, batch runner, and downstream stages remain unchanged.
 
 ## NEXT ACTION
 
-Review the Gate 6/8/9 MUD source-strategy refinement and explicitly authorize or decline the four-case targeted historical validation. Do not implement MUD or run live discovery during that validation.
+Resume routine CFD Bundle 1 discovery using the approved bounded batch workflow. Surface only `CFD_AUTHORIZE_SCOUT_REVIEW` candidates or controller/source/safety exceptions for human review. Keep MUD paused unless separately reopened due to improved source access.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

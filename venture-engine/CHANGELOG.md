@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — Final MUD Gate 6/8/9 public-web validation
+
+- Added a non-canonical final four-case replay of the late-stage refinement: Warby Parker and Dropbox remained `HOLD`, Kiva became a refined replay `REJECT` on substantive regulated-intermediary constraints, and Juicero remained `REJECT`.
+- The reviewed fixed exit rule did not pass: `MUD_PUBLIC_WEB_VALIDATION_FAIL`, `PAUSE_MUD_PUBLIC_WEB_IMPLEMENTATION`, and `NOT_ECONOMICAL`. Public-web MUD is formally paused; CFD remains operational and unchanged. No MUD implementation/live work, CFD, controller/batch, gate, canonical data, or schema changed.
+
 ## 2026-09-11 — MUD Gate 6/8/9 source-strategy refinement (awaiting review)
 
 - Added a design-only late-stage module for buyer/payer, authoritative barrier-specific enabler, and alternative-adequacy falsification evidence. It preserves the MUD gate, broader source strategy, base budget, and existing workflow.

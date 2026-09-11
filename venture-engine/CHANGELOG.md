@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — Expanded MUD historical calibration
+
+- Added a separate frozen 13-case retrospective MUD calibration with ten stratified historical positives, three controls, pre-cutoff evidence labels, one simulation card per case, a blocker-classification diagnostic, and a post-lock sensitivity check.
+- The reviewed non-canonical result is `MUD_SOURCE_MODEL_NEEDS_REFINEMENT` with recommendation `REFINE_MUD_SOURCE_STRATEGY`: the high-richness subset authorized while all controls rejected, but public-source observability still prevented authorization in most MUD-shaped cases. No MUD design, live MUD activity, CFD policy, controller, canonical record, or downstream stage changed.
+
 ## 2026-09-11 — MUD historical backtest
 
 - Added eight retrospective, non-canonical MUD gate simulations and three negative probes using the fixed CFD-calibration portfolio/cutoffs and explicit hindsight firewalls.

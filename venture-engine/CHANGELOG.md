@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — MUD Gate 6/8/9 source-strategy refinement (awaiting review)
+
+- Added a design-only late-stage module for buyer/payer, authoritative barrier-specific enabler, and alternative-adequacy falsification evidence. It preserves the MUD gate, broader source strategy, base budget, and existing workflow.
+- The module activates only for authorization-proximate candidates, adds one bounded three-role mini-pass, introduces audit metadata only, and proposes a four-case targeted validation. No MUD implementation/live discovery, CFD, controller/batch, canonical data, schema, or gate changed.
+
 ## 2026-09-11 — MUD source-strategy historical validation
 
 - Added a non-canonical five-case replay of the committed source method, separate evidence ledgers, a lightweight control-safety review, and a portfolio report. The original calibration cards, cutoffs, and official decisions remain unchanged.

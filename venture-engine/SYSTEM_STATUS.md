@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The MUD design, expanded historical calibration, bounded source strategy, and five-case source-method validation are complete and committed. The reviewed source-method conclusions are `PUBLIC_WEB_PARTIALLY_SUFFICIENT` and `MUD_SOURCE_STRATEGY_PROMISING`: better sourcing recovered some direct behavior/generalization evidence but no authorization-grade replay. MUD remains unimplemented and is not authorized for pilot or live discovery; its gate remains unchanged. CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
+**No active persona pipeline.** The MUD design, expanded historical calibration, bounded source strategy, and five-case source-method validation are complete and committed. The narrow Gate 6/8/9 refinement design in `decisions/market-unlock-discovery-source-strategy-gate-6-8-9-refinement.md` is complete and awaits review. It preserves the MUD gate and broader source strategy while targeting buyer/payer, authoritative enabler, and alternative-adequacy falsification evidence. MUD remains unimplemented and is not authorized for pilot or live discovery. CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
 
 ## NEXT ACTION
 
-Design a narrowly revised bounded MUD source strategy focused specifically on buyer/payer evidence, authoritative barrier-specific enabler evidence, and falsification of cheap/simple/professional alternatives. Preserve the approved MUD gate and broader source strategy; do not implement MUD or run live discovery during the design task.
+Review the Gate 6/8/9 MUD source-strategy refinement and explicitly authorize or decline the four-case targeted historical validation. Do not implement MUD or run live discovery during that validation.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

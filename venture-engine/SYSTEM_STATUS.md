@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The Market Unlock Discovery (MUD) design proposal is complete in `decisions/market-unlock-discovery-design.md`. It does not implement MUD or change CFD `manual-pilot-v2`, canonical data, the controller, batch runner, or any downstream stage. A MUD historical backtest requires separate authorization before implementation, shadow use, or live discovery. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
+**No active persona pipeline.** The MUD historical backtest is complete in `research/calibration/mud-historical-recall/` and awaits review. It produced `MUD_BACKTEST_INDETERMINATE` and recommends expanded calibration before any implementation, pilot, or live use. MUD remains unimplemented; CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
 
 ## NEXT ACTION
 
-Review the MUD design proposal and explicitly authorize or decline its historical backtest. Do not implement, pilot, or run MUD unless separately authorized after that review.
+Review the MUD historical backtest and explicitly authorize or decline expanded calibration. Do not implement, pilot, or run MUD unless separately authorized after that review.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

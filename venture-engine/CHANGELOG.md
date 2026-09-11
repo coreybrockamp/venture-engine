@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — MUD historical backtest
+
+- Added eight retrospective, non-canonical MUD gate simulations and three negative probes using the fixed CFD-calibration portfolio/cutoffs and explicit hindsight firewalls.
+- The result is `MUD_BACKTEST_INDETERMINATE`: MUD recognized access-shaped cases but authorized none from the retained early public corpus; the control and all negative probes rejected. Expanded calibration is recommended before implementation, pilot, or live use.
+
 ## 2026-09-11 — Market Unlock Discovery design proposal
 
 - Added a design-only proposal for MUD, a complementary non-consumption/access-barrier discovery lens. It preserves CFD `manual-pilot-v2`, all canonical/downstream gates, and existing controller/batch boundaries.

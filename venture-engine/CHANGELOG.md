@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — Bounded MUD source-strategy design (awaiting review)
+
+- Added a design-only, role-based source strategy for MUD that preserves the nine-condition gate and defines a bounded ladder, source-role mix, query families, Markdown ledger, observability-gap labels, falsification, and a five-case historical replay proposal.
+- No MUD implementation, live discovery, controller/batch, CFD, canonical data, schema, or downstream workflow changed.
+
 ## 2026-09-11 — Expanded MUD historical calibration
 
 - Added a separate frozen 13-case retrospective MUD calibration with ten stratified historical positives, three controls, pre-cutoff evidence labels, one simulation card per case, a blocker-classification diagnostic, and a post-lock sensitivity check.

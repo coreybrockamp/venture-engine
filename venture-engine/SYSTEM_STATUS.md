@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** The initial MUD design and historical backtest are complete and committed; the backtest remains preserved in `research/calibration/mud-historical-recall/` with `MUD_BACKTEST_INDETERMINATE`. The separately frozen expanded calibration in `research/calibration/mud-expanded-recall/` is complete and reviewed. Its retrospective conclusion is `MUD_SOURCE_MODEL_NEEDS_REFINEMENT` with recommendation `REFINE_MUD_SOURCE_STRATEGY`; this does not implement, pilot, or authorize live MUD. CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
+**No active persona pipeline.** The initial MUD design and historical backtest are complete and committed; the backtest remains preserved in `research/calibration/mud-historical-recall/` with `MUD_BACKTEST_INDETERMINATE`. The separately frozen expanded calibration is complete and reviewed with `MUD_SOURCE_MODEL_NEEDS_REFINEMENT`; the bounded source-strategy design in `decisions/market-unlock-discovery-source-strategy.md` is complete and awaits review. MUD remains unimplemented and is not authorized for pilot or live discovery. CFD `manual-pilot-v2`, canonical data, the controller, batch runner, and downstream stages remain unchanged. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
 
 ## NEXT ACTION
 
-Design a bounded MUD source strategy that improves discovery of desire, attempts/substitutes, access barriers, consequences, buyer/payer evidence, and barrier generalization without weakening the approved MUD gate. Do not implement MUD or run live discovery during the design task.
+Review the bounded MUD source-strategy design and explicitly authorize or decline the five-case historical source-method replay. Do not implement MUD or conduct live discovery during that replay.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

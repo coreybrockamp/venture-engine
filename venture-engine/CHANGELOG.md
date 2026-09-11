@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — MUD source-strategy historical validation
+
+- Added a non-canonical five-case replay of the committed source method, separate evidence ledgers, a lightweight control-safety review, and a portfolio report. The original calibration cards, cutoffs, and official decisions remain unchanged.
+- The reviewed replay result is `PUBLIC_WEB_PARTIALLY_SUFFICIENT`, `MUD_SOURCE_STRATEGY_PROMISING`, and `REFINE_SOURCE_STRATEGY`: better sourcing recovered behavior/generalization evidence in some cases but produced no authorization-grade conversion. No MUD implementation/live activity, CFD, controller/batch, canonical data, or schema changed.
+
 ## 2026-09-11 — Bounded MUD source-strategy design (awaiting review)
 
 - Added a design-only, role-based source strategy for MUD that preserves the nine-condition gate and defines a bounded ladder, source-role mix, query families, Markdown ledger, observability-gap labels, falsification, and a five-case historical replay proposal.

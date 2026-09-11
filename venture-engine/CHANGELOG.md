@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-11 — Market Unlock Discovery design proposal
+
+- Added a design-only proposal for MUD, a complementary non-consumption/access-barrier discovery lens. It preserves CFD `manual-pilot-v2`, all canonical/downstream gates, and existing controller/batch boundaries.
+- MUD requires a future historical backtest and review before any implementation, shadow pilot, live discovery, or scheduled operation.
+
 ## 2026-09-09 — Historical CFD recall calibration
 
 - Added eight retrospective, non-canonical `manual-pilot-v2` simulations with pre-cutoff evidence ledgers, simulated gate decisions, and explicit hindsight firewalls; no live CFD or canonical record changed.

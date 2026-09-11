@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-09T23:55:00Z
+2026-09-11T19:19:43Z
 
 ## Project Mission
 
@@ -59,11 +59,11 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.** Historical CFD recall calibration is complete in `research/calibration/cfd-historical-recall/`. It made no live CFD, canonical, policy, controller, or downstream change. The simulated portfolio warns that `manual-pilot-v2` may have low recall outside its residual-paid-friction remit. A complementary discovery channel is approved in principle for future design only; it has not been designed or implemented. Routine Bundle 1 discovery remains operational under unchanged `manual-pilot-v2`; no scheduled or continuous discovery is authorized. The last live batch remains `BATCH-20260909T234635Z`; its retained audits and the preserved historical failed worktree remain auditable.
+**No active persona pipeline.** The Market Unlock Discovery (MUD) design proposal is complete in `decisions/market-unlock-discovery-design.md`. It does not implement MUD or change CFD `manual-pilot-v2`, canonical data, the controller, batch runner, or any downstream stage. A MUD historical backtest requires separate authorization before implementation, shadow use, or live discovery. Routine CFD Bundle 1 discovery remains operational; no scheduled or continuous discovery is authorized.
 
 ## NEXT ACTION
 
-Design a complementary bounded discovery channel for opportunity classes that CFD's residual-paid-friction model is structurally unlikely to detect. Do not implement or activate the channel during the design task.
+Review the MUD design proposal and explicitly authorize or decline its historical backtest. Do not implement, pilot, or run MUD unless separately authorized after that review.
 
 Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Do **NOT** select a persona or begin Scout until a future CFD candidate is reviewed and explicitly approved. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 

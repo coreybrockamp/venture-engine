@@ -1,0 +1,30 @@
+{
+  "authorize_scout_occurred": true,
+  "batch_id": "BATCH-20260930T014211Z",
+  "batch_status": "BATCH_ESCALATED",
+  "ending_main_sha": "fef4ca45742fbadfde3e1ad3eb0e4c22d7dbd92e",
+  "finished_at": "2026-09-30T01:42:18.122083Z",
+  "hold_count": 0,
+  "main_origin_synchronized": true,
+  "next_human_decision": "Review the preserved CFD candidate and provide explicit approval before Bundle 2.",
+  "reject_count": 0,
+  "requested_max_runs": 5,
+  "run_ids": [
+    "SHADOW-20260930T014214Z-0001"
+  ],
+  "runs": [
+    {
+      "acceptance": "NOT_ACCEPTED",
+      "cleanup": "PRESERVED",
+      "run_id": "SHADOW-20260930T014214Z-0001",
+      "starting_commit": "fef4ca45742fbadfde3e1ad3eb0e4c22d7dbd92e",
+      "terminal_code": "CFD_AUTHORIZE_SCOUT_REVIEW",
+      "terminal_reason": "The reviewed CFD card provisionally passes all seven manual-pilot-v2 triage conditions; human approval is required before any Scout or Bundle 2 work.",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260930T014214Z-0001"
+    }
+  ],
+  "runs_attempted": 1,
+  "started_at": "20260930T014211Z",
+  "starting_main_sha": "fef4ca45742fbadfde3e1ad3eb0e4c22d7dbd92e",
+  "stop_reason": "CFD_AUTHORIZE_SCOUT_REVIEW: The reviewed CFD card provisionally passes all seven manual-pilot-v2 triage conditions; human approval is required before any Scout or Bundle 2 work."
+}

@@ -4,6 +4,18 @@ The controller is a bounded state machine, not an autonomous research agent. `AG
 
 The controller is the enforcement/state-machine layer. Research reasoning is supplied through the structured stage-runner interface; the controller CLI does not independently invent or dispatch unrestricted research work. This intentional boundary will be exercised by the first supervised integration pilot.
 
+## Read-only next-action proposal
+
+`scripts/propose_next_action.py` is a separate advisory proof of concept. It reads the local agent entry point, its parent constitution, `SYSTEM_STATUS.md`, and the minimum referenced approval/card/run-audit state; an OpenAI model proposes one schema-constrained action. Repository policy, approval, clean/synchronized-main, and unretained-worktree checks then accept that proposal or fail closed to `STOP_FOR_HUMAN_REVIEW`. The model cannot grant approval, and `human_approval_required: false` cannot waive a repository gate. Unknown status shapes also stop for review.
+
+Install the sole new Python dependency with `python3 -m pip install -r venture-engine/requirements.txt`, set `OPENAI_API_KEY` in your environment (never in the repository), then run `python3 venture-engine/scripts/propose_next_action.py` from the project root. It prints exactly one JSON object, for example:
+
+```json
+{"current_state":"HUMAN_REVIEW_REQUIRED","next_permitted_action":"STOP_FOR_HUMAN_REVIEW","rationale":"The status requires human review.","human_approval_required":true}
+```
+
+It does not dispatch an agent, run a stage, create a worktree, edit records, accept a run, commit, push, or schedule anything. A missing key, API failure/refusal, malformed output, inconsistent status, or missing approval returns a stop proposal and nonzero exit code. The API request contains the bounded constitution/status snapshot; review that data-transfer boundary before live use. Tests mock all model calls.
+
 ## Bundles
 
 - `discovery`: CFD only. `REJECT`, `HOLD`, and `AUTHORIZE_SCOUT` all stop; the last requires human review before any persona or Scout work.

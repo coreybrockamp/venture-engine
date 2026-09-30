@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 — Accepted first real Bundle 2 pilot
+
+- Accepted reviewed `SHADOW-20260930T014819Z-0001` onto `main`: PER-014, `OBS-000241`–`OBS-000256`, Scout checkpoint, clustering memo, and matching JSON/Markdown audit. The explicit approval record was already retained.
+- The controller pilot result is `PASS` with terminal `CLUSTER_ZERO_PROMOTED`: no formal Problem survived because the specific administrative handoff was not shown to recur after competent adoption across materially different stacks. No Market Analysis or later stage ran.
+- Human approval remains mandatory for every Bundle 2 candidate; a promoted Problem stops at `PROBLEM_PROMOTED_REVIEW`, and Market Analysis remains separately human-gated. The unrelated next-action proposal prototype remains isolated on `codex/wip/next-action-proposal`.
+
 ## 2026-09-29 — First Bundle 2 candidate approval
 
 - Preserved the escalated Bundle 1 candidate card and individual audit files from `SHADOW-20260930T014214Z-0001` without routine-accepting it as a rejection.

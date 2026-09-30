@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-30T01:47:24Z
+2026-09-30T02:10:11Z
 
 ## Project Mission
 
@@ -36,6 +36,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 | PER-011 — B2B SaaS finance / revenue-operations owner | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
 | PER-012 — Construction change-order financials manager | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
 | PER-013 — Outpatient referral-operations manager | Complete | Complete / 0 promoted | Not started | Not started | Not started | None |
+| PER-014 — Outpatient prior-authorization operations lead | Complete | Complete / 0 promoted | Not started / not authorized | Not started | Not started | None |
 | PER-005, PER-007, PER-010 | Not started | Not started | Not started | Not started | Not started | None |
 
 ## Current Portfolio Findings
@@ -50,7 +51,7 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 | Entity | Count |
 |---|---:|
-| Observations | 240 |
+| Observations | 256 |
 | Problems | 15 |
 | Competitors | 32 |
 | Opportunities | 8 |
@@ -59,21 +60,21 @@ The Venture Research & Validation Engine continuously searches for real customer
 
 ## Current Workstream
 
-**No active persona pipeline.**
+**No active persona pipeline.** PER-014 is closed at Problem Clustering: Scout complete, Cluster complete / 0 Problems promoted, and Market Analysis not started or authorized. The 16 observations and negative cluster decision are retained; additional evidence requires separate authorization.
 
-**Approved candidate pending first Bundle 2 pilot:** The preserved `SHADOW-20260930T014214Z-0001` CFD candidate was explicitly approved for bounded administrative prior-authorization research. `PER-014` is reserved in `decisions/shadow-bundle2-approval-2026-09-29-per-014.md`; no persona or canonical observation has yet been created. The prior Bundle 1 batch stopped for review after one run. The first Bundle 2 pilot remains to be run from this approved clean baseline.
+**First real Bundle 2 pilot — PASS:** `SHADOW-20260930T014819Z-0001` was reviewed and accepted with terminal `CLUSTER_ZERO_PROMOTED`. It demonstrated explicit human-approval enforcement, target-scoped persona resolution, safe canonical Scout writes, Scout-to-Cluster transition, zero-promotion stop, Bundle 2 allowlist and validator/test enforcement, matching manifest/report, and main/remote isolation during shadow execution. This validates one zero-promotion path only. Future Bundle 2 candidates still require explicit human approval; a surviving Problem must stop at `PROBLEM_PROMOTED_REVIEW`. Market Analysis remains human-gated, with no automatic transition or expanded Bundle 2 authority.
 
 **Operational now — Commercial Friction Discovery (CFD):** `manual-pilot-v2` remains unchanged and routine Bundle 1 discovery is operational through the approved bounded batch/acceptance lifecycle. Normal `CFD_REJECT`/`CFD_HOLD` outcomes may complete routinely; `CFD_AUTHORIZE_SCOUT_REVIEW` and controller, source, or safety exceptions remain human escalations.
 
 **Paused — Market Unlock Discovery (MUD):** MUD is designed and historically calibrated, but public-web implementation is formally paused following final validation: `MUD_PUBLIC_WEB_VALIDATION_FAIL` and `NOT_ECONOMICAL`. No positive reached authorization under the unchanged gate while Juicero remained rejected. MUD remains unimplemented; no live MUD run or additional MUD calibration is authorized unless separately reopened because materially better source access or another explicit strategic reason exists.
 
-**Downstream:** The existing `Scout → Cluster → Market → Opportunity → Score → Experiment` pipeline remains unchanged. Explicit human approval for the first Bundle 2 pilot is now recorded; execution is pending. No Market Analysis or later stage is authorized. Canonical data, controller, batch runner, and downstream stages remain unchanged.
+**Downstream:** The existing `Scout → Cluster → Market → Opportunity → Score → Experiment` pipeline remains unchanged. No PER-014 Market Analysis or later stage is authorized. The read-only next-action proposal prototype remains isolated on `codex/wip/next-action-proposal`; it is not part of production `main`. No scheduled or continuous discovery is authorized.
 
 ## NEXT ACTION
 
-Run the first supervised `shadow-pilot-v1` Bundle 2 pilot for the approved `PER-014` candidate using the valid human-approval reference. Stop after persona resolution, Scout, and Problem Clustering at exactly one controller terminal code; do not enter Market Analysis. Keep MUD paused.
+Resume routine CFD Bundle 1 discovery using the approved bounded batch workflow. Surface `CFD_AUTHORIZE_SCOUT_REVIEW` candidates or controller/source/safety exceptions for human review. Future approved candidates may use Bundle 2 through Scout and Cluster, but must stop before Market Analysis.
 
-Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-promotion result; return to targeted evidence accumulation only if separately authorized. Only the explicitly approved PER-014 Bundle 2 pilot may resolve a persona and begin Scout; no other persona or Scout work is authorized. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
+Do **NOT** begin PER-012 or PER-014 Market Analysis or any later stage. Preserve their zero-promotion results; return to targeted evidence accumulation only if separately authorized. No new persona or Scout work is authorized without the required review and approval. Do **NOT** begin PER-011 Market Analysis or reopen PER-011 evidence accumulation. Preserve the closed PER-002 and PER-008 no-residual-paid-job conclusions; do not reopen either research pass unless separately authorized.
 
 ## Do Not Start Yet
 
@@ -83,8 +84,9 @@ Do **NOT** begin PER-012 Market Analysis or any later stage. Preserve the zero-p
 - PER-011 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or evidence accumulation.
 - PER-012 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or further evidence accumulation before separately authorized.
 - PER-013 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or additional evidence accumulation before separately authorized.
-- Persona selection or Scout research beyond the approved PER-014 Bundle 2 pilot.
-- Bundle 2 without a separately reviewed, explicit valid human-approved candidate reference; this first real run remains a supervised pilot.
+- PER-014 Market Analysis, Opportunity Generation, Opportunity Scoring, experiments, or additional evidence accumulation before separately authorized.
+- Persona resolution or Scout research without a separately reviewed, explicit valid human-approved candidate reference.
+- Automatic transition from Bundle 2 to Market Analysis, including after `PROBLEM_PROMOTED_REVIEW`.
 - Automatic scheduling or continuous shadow operation.
 - Any automatic transition from Bundle 1 to Bundle 2, or any reuse of `SHADOW-20260908T224814Z-0001`.
 - Demand experiments.

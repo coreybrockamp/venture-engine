@@ -1,0 +1,80 @@
+{
+  "approved_candidate_ref": "/Users/coreybrockamp/Documents/ChatGPT/New project/venture-engine/decisions/shadow-bundle2-approval-2026-09-29-per-014.md",
+  "branch": "codex/shadow/SHADOW-20260930T014819Z-0001",
+  "bundle": "approved_candidate",
+  "entities_created": {
+    "observations": [
+      "OBS-000241",
+      "OBS-000242",
+      "OBS-000243",
+      "OBS-000244",
+      "OBS-000245",
+      "OBS-000246",
+      "OBS-000247",
+      "OBS-000248",
+      "OBS-000249",
+      "OBS-000250",
+      "OBS-000251",
+      "OBS-000252",
+      "OBS-000253",
+      "OBS-000254",
+      "OBS-000255",
+      "OBS-000256"
+    ],
+    "personas": [
+      "PER-014"
+    ],
+    "problems": []
+  },
+  "evidence": {
+    "cluster": {
+      "candidate_mechanisms": 3,
+      "problems_promoted": 0,
+      "strongest_counterevidence": "Athena practice/integration and functioning Epic ePA users"
+    },
+    "persona_resolution": "PER-014",
+    "scout": {
+      "independent_urls": 8,
+      "observation_count": 16,
+      "source_distribution": {
+        "competitor_website": 2,
+        "industry_report": 4,
+        "reddit": 10
+      },
+      "source_types": 3
+    }
+  },
+  "files_changed": [
+    "CHANGELOG.md",
+    "SYSTEM_STATUS.md",
+    "config/personas.yaml",
+    "data/observations.jsonl",
+    "personas/outpatient-prior-authorization-operations-lead.md",
+    "reports/shadow-runs/SHADOW-20260930T014819Z-0001.json",
+    "reports/shadow-runs/SHADOW-20260930T014819Z-0001.md",
+    "research/daily/2026-09-29-per-014-scout-checkpoint.md",
+    "research/problem-clustering/2026-09-29-per-014-problem-clustering.md"
+  ],
+  "local_commit": null,
+  "next_human_decision": "Review the PER-014 zero-promotion audit and decide whether to accept the isolated Scout/Cluster artifacts or separately authorize targeted additional evidence. Do not begin Market Analysis.",
+  "policy_version": "shadow-pilot-v1",
+  "remote_mutated": false,
+  "run_id": "SHADOW-20260930T014819Z-0001",
+  "stages_attempted": [
+    "persona_resolution",
+    "scout",
+    "cluster"
+  ],
+  "stages_completed": [
+    "persona_resolution",
+    "scout",
+    "cluster"
+  ],
+  "started_at": "2026-09-30T01:57:55.863541Z",
+  "starting_commit": "c8f165593c0e390d96192fd2311da884a8c76728",
+  "terminal_reason": "No specific administrative handoff independently recurred after competent adoption across materially different stacks.",
+  "terminal_stop_code": "CLUSTER_ZERO_PROMOTED",
+  "tests_result": "passed",
+  "validator_result": "passed",
+  "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260930T014819Z-0001"
+}

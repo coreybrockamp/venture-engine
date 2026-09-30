@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-29 — First Bundle 2 candidate approval
+
+- Preserved the escalated Bundle 1 candidate card and individual audit files from `SHADOW-20260930T014214Z-0001` without routine-accepting it as a rejection.
+- Recorded the user's explicit approval for a first bounded Bundle 2 pilot, resolving `NEW` to `PER-014` in a repository approval reference. No canonical persona, observation, Problem, or downstream stage was created by this approval change.
+
 ## 2026-09-11 — Final MUD Gate 6/8/9 public-web validation
 
 - Added a non-canonical final four-case replay of the late-stage refinement: Warby Parker and Dropbox remained `HOLD`, Kiva became a refined replay `REJECT` on substantive regulated-intermediary constraints, and Juicero remained `REJECT`.

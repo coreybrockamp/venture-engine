@@ -1,0 +1,30 @@
+{
+  "authorize_scout_occurred": false,
+  "batch_id": "BATCH-20260930T021728Z",
+  "batch_status": "BATCH_FAILED",
+  "ending_main_sha": "10eb4b6271e8fdc29d83a6792493da5d1c3a06f5",
+  "finished_at": "2026-09-30T02:20:48.650229Z",
+  "hold_count": 0,
+  "main_origin_synchronized": true,
+  "next_human_decision": "Review the failed batch audit and resolve the recorded safety or repository condition before another run.",
+  "reject_count": 0,
+  "requested_max_runs": 5,
+  "run_ids": [
+    "SHADOW-20260930T021732Z-0001"
+  ],
+  "runs": [
+    {
+      "acceptance": "NOT_ACCEPTED",
+      "cleanup": "PRESERVED",
+      "run_id": "SHADOW-20260930T021732Z-0001",
+      "starting_commit": "10eb4b6271e8fdc29d83a6792493da5d1c3a06f5",
+      "terminal_code": "UNEXPECTED_DIFF",
+      "terminal_reason": "Undeclared writes: CHANGELOG.md, SYSTEM_STATUS.md, research/commercial-friction-discovery/2026-09-29-veterinary-inventory-department-transfer.md",
+      "worktree": "/Users/coreybrockamp/Documents/ChatGPT/.New project-shadow-worktrees/SHADOW-20260930T021732Z-0001"
+    }
+  ],
+  "runs_attempted": 1,
+  "started_at": "20260930T021728Z",
+  "starting_main_sha": "10eb4b6271e8fdc29d83a6792493da5d1c3a06f5",
+  "stop_reason": "UNEXPECTED_DIFF: Undeclared writes: CHANGELOG.md, SYSTEM_STATUS.md, research/commercial-friction-discovery/2026-09-29-veterinary-inventory-department-transfer.md"
+}
